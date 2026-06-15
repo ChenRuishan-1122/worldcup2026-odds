@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>世界杯夺冠概率模拟器</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">2026 Men's World Cup</p>
+        <h1>世界杯夺冠概率模拟器</h1>
+      </div>
+      <div class="status-pill" id="status">加载中</div>
+    </header>
+
+    <main class="layout">
+      <aside class="control-panel">
+        <section>
+          <h2>模拟参数</h2>
+          <label>
+            模拟次数
+            <input id="simulations" type="number" min="500" max="50000" step="500" value="10000">
+          </label>
+          <label>
+            随机种子
+            <input id="seed" type="number" value="20260612">
+          </label>
+          <button id="runButton" type="button">快速重算</button>
+        </section>
+
+        <section>
+          <h2>权重</h2>
+          <div id="weights"></div>
+        </section>
+
+        <section>
+          <h2>数据状态</h2>
+          <ul id="dataNotes" class="notes"></ul>
+        </section>
+      </aside>
+
+      <section class="content">
+        <div class="summary-grid">
+          <article>
+            <span>最高夺冠概率</span>
+            <strong id="topChampion">-</strong>
+          </article>
+          <article>
+            <span>模拟次数</span>
+            <strong id="simCount">-</strong>
+          </article>
+          <article>
+            <span>模型</span>
+            <strong>透明统计</strong>
+          </article>
+        </div>
+
+        <section class="table-section match-predictor">
+          <div class="section-title">
+            <h2>单场预测</h2>
+            <span class="subtle">90 分钟胜 / 平 / 负</span>
+          </div>
+          <div class="preset-row" id="matchPresets"></div>
+          <div class="match-controls">
+            <label>
+              主队
+              <select id="homeTeamSelect"></select>
+            </label>
+            <label>
+              客队
+              <select id="awayTeamSelect"></select>
+            </label>
+          </div>
+          <div class="match-output">
+            <article>
+              <span id="homeWinLabel">主队胜</span>
+              <strong id="homeWinProb">-</strong>
+              <small id="homeWinCompare">-</small>
+            </article>
+            <article>
+              <span>平局</span>
+              <strong id="drawProb">-</strong>
+              <small id="drawCompare">-</small>
+            </article>
+            <article>
+              <span id="awayWinLabel">客队胜</span>
+              <strong id="awayWinProb">-</strong>
+              <small id="awayWinCompare">-</small>
+            </article>
+            <article>
+              <span>预期比分</span>
+              <strong id="expectedScore">-</strong>
+              <small id="expectedScoreCompare">-</small>
+            </article>
+          </div>
+          <div id="marketSummary" class="market-summary"></div>
+          <div id="probabilityMatrix" class="probability-matrix"></div>
+          <div id="disagreementNote" class="disagreement-note"></div>
+          <div class="match-detail">
+            <div>
+              <h3>模型预测拆解</h3>
+              <div id="matchDeltaBars" class="bars"></div>
+            </div>
+            <div class="prematch-card">
+              <h3>Prematch Intelligence</h3>
+              <div id="prematchIntelligence"></div>
+            </div>
+            <div class="goal-risk-card">
+              <h3>进球上限与崩盘风险</h3>
+              <div id="goalRiskPanel"></div>
+            </div>
+            <div class="player-card">
+              <h3>球员与世界杯语境</h3>
+              <div id="playerProfileCompare"></div>
+              <p id="matchNote" class="match-note"></p>
+            </div>
+          </div>
+        </section>
+
+        <section class="table-section">
+          <div class="section-title">
+            <h2>球队概率</h2>
+            <input id="search" type="search" placeholder="搜索球队">
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>球队</th>
+                  <th>Elo</th>
+                  <th>32强</th>
+                  <th>16强</th>
+                  <th>8强</th>
+                  <th>4强</th>
+                  <th>决赛</th>
+                  <th>夺冠</th>
+                </tr>
+              </thead>
+              <tbody id="teamRows"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="detail-grid">
+          <article>
+            <div class="section-title">
+              <h2>概率拆解</h2>
+              <select id="teamSelect"></select>
+            </div>
+            <div id="contributionBars" class="bars"></div>
+          </article>
+
+          <article>
+            <h2>小组与路径</h2>
+            <div id="groups" class="groups"></div>
+          </article>
+        </section>
+
+        <section class="table-section">
+          <h2>强队单场概率样例</h2>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>对阵</th>
+                  <th>胜</th>
+                  <th>平</th>
+                  <th>负</th>
+                </tr>
+              </thead>
+              <tbody id="matchRows"></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
