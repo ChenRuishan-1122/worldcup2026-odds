@@ -123,7 +123,7 @@
       "form": 0.86,
       "attack": 1.22,
       "defense": 1.18,
-      "strength": 0.704868,
+      "strength": 0.7386199999999999,
       "contributions": {
         "elo": 0.24,
         "fifa": 0.03,
@@ -131,8 +131,8 @@
         "player": 0.192368,
         "style": 0.0021000000000000003,
         "matchup": 0.0014000000000000002,
-        "venue": 0.05,
-        "context": 0.06
+        "venue": 0.055720000000000006,
+        "context": 0.08803199999999999
       },
       "player_profile": {
         "star_power": 0.94,
@@ -144,31 +144,31 @@
         "notes": "Elite star power and continuity"
       },
       "venue_profile": {
-        "venue_score": 0.5,
-        "travel_adaptation": 0.5,
-        "home_crowd": 0.5,
-        "score": 0.5,
-        "notes": "Neutral venue fallback"
+        "venue_score": 0.56,
+        "travel_adaptation": 0.58,
+        "home_crowd": 0.52,
+        "score": 0.5572,
+        "notes": "Neutral venue estimate from user odds screenshots"
       },
       "tournament_context": {
-        "context_score": 0.5,
-        "draw_acceptability": 0.5,
-        "qualification_pressure": 0.5,
-        "third_place_buffer": 0.5,
-        "score": 0.5,
-        "notes": "Neutral tournament-context fallback"
+        "context_score": 0.78,
+        "draw_acceptability": 0.58,
+        "qualification_pressure": 0.82,
+        "third_place_buffer": 0.7,
+        "score": 0.7335999999999999,
+        "notes": "Neutral group-stage context estimate"
       },
       "notes": "Elite squad continuity and market respect",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.8735,
-        "round16": 0.62585,
-        "quarterfinal": 0.3999,
-        "semifinal": 0.2463,
-        "final": 0.1471,
-        "champion": 0.08855
+        "round32": 0.88325,
+        "round16": 0.64345,
+        "quarterfinal": 0.41225,
+        "semifinal": 0.25885,
+        "final": 0.15825,
+        "champion": 0.0948
       },
-      "expected_stage_score": 5.66545
+      "expected_stage_score": 5.89715
     },
     {
       "team": "France",
@@ -179,7 +179,7 @@
       "form": 0.84,
       "attack": 1.21,
       "defense": 1.17,
-      "strength": 0.6990475141442177,
+      "strength": 0.7317915141442177,
       "contributions": {
         "elo": 0.23441860465116277,
         "fifa": 0.029240909493054936,
@@ -187,8 +187,8 @@
         "player": 0.195888,
         "style": 0.0021000000000000003,
         "matchup": 0.0014000000000000002,
-        "venue": 0.05,
-        "context": 0.06
+        "venue": 0.055720000000000006,
+        "context": 0.08702399999999999
       },
       "player_profile": {
         "star_power": 0.96,
@@ -200,31 +200,31 @@
         "notes": "Elite depth across the squad"
       },
       "venue_profile": {
-        "venue_score": 0.5,
-        "travel_adaptation": 0.5,
-        "home_crowd": 0.5,
-        "score": 0.5,
-        "notes": "Neutral venue fallback"
+        "venue_score": 0.56,
+        "travel_adaptation": 0.58,
+        "home_crowd": 0.52,
+        "score": 0.5572,
+        "notes": "Neutral venue estimate from user odds screenshots"
       },
       "tournament_context": {
-        "context_score": 0.5,
-        "draw_acceptability": 0.5,
-        "qualification_pressure": 0.5,
-        "third_place_buffer": 0.5,
-        "score": 0.5,
-        "notes": "Neutral tournament-context fallback"
+        "context_score": 0.76,
+        "draw_acceptability": 0.6,
+        "qualification_pressure": 0.8,
+        "third_place_buffer": 0.7,
+        "score": 0.7252,
+        "notes": "Neutral group-stage context estimate"
       },
       "notes": "Elite depth and strong market prior",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.8379,
-        "round16": 0.5861,
-        "quarterfinal": 0.37135,
-        "semifinal": 0.22655,
-        "final": 0.13395,
-        "champion": 0.07555
+        "round32": 0.84475,
+        "round16": 0.60105,
+        "quarterfinal": 0.3855,
+        "semifinal": 0.23865,
+        "final": 0.14225,
+        "champion": 0.08365
       },
-      "expected_stage_score": 5.228950000000001
+      "expected_stage_score": 5.454750000000001
     },
     {
       "team": "Brazil",
@@ -273,14 +273,14 @@
       "notes": "High ceiling with form uncertainty",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.82575,
-        "round16": 0.55305,
-        "quarterfinal": 0.33375,
-        "semifinal": 0.19415,
-        "final": 0.1102,
-        "champion": 0.06095
+        "round32": 0.8202,
+        "round16": 0.5485,
+        "quarterfinal": 0.32875,
+        "semifinal": 0.1892,
+        "final": 0.10675,
+        "champion": 0.05705
       },
-      "expected_stage_score": 4.68735
+      "expected_stage_score": 4.59335
     },
     {
       "team": "Spain",
@@ -329,70 +329,14 @@
       "notes": "Possession style boost",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.8205,
-        "round16": 0.54995,
-        "quarterfinal": 0.3285,
-        "semifinal": 0.1881,
-        "final": 0.10725,
-        "champion": 0.05685
+        "round32": 0.82045,
+        "round16": 0.5496,
+        "quarterfinal": 0.3287,
+        "semifinal": 0.18655,
+        "final": 0.10315,
+        "champion": 0.05505
       },
-      "expected_stage_score": 4.592499999999999
-    },
-    {
-      "team": "Portugal",
-      "confederation": "UEFA",
-      "elo": 2045.0,
-      "fifa_rank": 6,
-      "fifa_points": 1785.0,
-      "form": 0.83,
-      "attack": 1.19,
-      "defense": 1.09,
-      "strength": 0.6563582614370748,
-      "contributions": {
-        "elo": 0.20465116279069764,
-        "fifa": 0.026795098646377066,
-        "form": 0.12449999999999999,
-        "player": 0.18691200000000002,
-        "style": 0.0021000000000000003,
-        "matchup": 0.0014000000000000002,
-        "venue": 0.05,
-        "context": 0.06
-      },
-      "player_profile": {
-        "star_power": 0.89,
-        "squad_depth": 0.88,
-        "availability": 0.85,
-        "goalkeeper": 0.82,
-        "injury_risk": 0.1,
-        "score": 0.8496000000000001,
-        "notes": "Deep attacking and creative options"
-      },
-      "venue_profile": {
-        "venue_score": 0.5,
-        "travel_adaptation": 0.5,
-        "home_crowd": 0.5,
-        "score": 0.5,
-        "notes": "Neutral venue fallback"
-      },
-      "tournament_context": {
-        "context_score": 0.5,
-        "draw_acceptability": 0.5,
-        "qualification_pressure": 0.5,
-        "third_place_buffer": 0.5,
-        "score": 0.5,
-        "notes": "Neutral tournament-context fallback"
-      },
-      "notes": "Attacking depth",
-      "probabilities": {
-        "group": 1.0,
-        "round32": 0.7852,
-        "round16": 0.5154,
-        "quarterfinal": 0.306,
-        "semifinal": 0.1757,
-        "final": 0.0977,
-        "champion": 0.05305
-      },
-      "expected_stage_score": 4.29665
+      "expected_stage_score": 4.55305
     },
     {
       "team": "England",
@@ -441,14 +385,70 @@
       "notes": "High player depth",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.7969,
-        "round16": 0.52345,
-        "quarterfinal": 0.3068,
-        "semifinal": 0.17435,
-        "final": 0.0962,
-        "champion": 0.05225
+        "round32": 0.79885,
+        "round16": 0.52665,
+        "quarterfinal": 0.3061,
+        "semifinal": 0.17335,
+        "final": 0.09305,
+        "champion": 0.05075
       },
-      "expected_stage_score": 4.30835
+      "expected_stage_score": 4.28435
+    },
+    {
+      "team": "Portugal",
+      "confederation": "UEFA",
+      "elo": 2045.0,
+      "fifa_rank": 6,
+      "fifa_points": 1785.0,
+      "form": 0.83,
+      "attack": 1.19,
+      "defense": 1.09,
+      "strength": 0.6563582614370748,
+      "contributions": {
+        "elo": 0.20465116279069764,
+        "fifa": 0.026795098646377066,
+        "form": 0.12449999999999999,
+        "player": 0.18691200000000002,
+        "style": 0.0021000000000000003,
+        "matchup": 0.0014000000000000002,
+        "venue": 0.05,
+        "context": 0.06
+      },
+      "player_profile": {
+        "star_power": 0.89,
+        "squad_depth": 0.88,
+        "availability": 0.85,
+        "goalkeeper": 0.82,
+        "injury_risk": 0.1,
+        "score": 0.8496000000000001,
+        "notes": "Deep attacking and creative options"
+      },
+      "venue_profile": {
+        "venue_score": 0.5,
+        "travel_adaptation": 0.5,
+        "home_crowd": 0.5,
+        "score": 0.5,
+        "notes": "Neutral venue fallback"
+      },
+      "tournament_context": {
+        "context_score": 0.5,
+        "draw_acceptability": 0.5,
+        "qualification_pressure": 0.5,
+        "third_place_buffer": 0.5,
+        "score": 0.5,
+        "notes": "Neutral tournament-context fallback"
+      },
+      "notes": "Attacking depth",
+      "probabilities": {
+        "group": 1.0,
+        "round32": 0.78475,
+        "round16": 0.5124,
+        "quarterfinal": 0.29795,
+        "semifinal": 0.16655,
+        "final": 0.0891,
+        "champion": 0.04845
+      },
+      "expected_stage_score": 4.154249999999999
     },
     {
       "team": "Netherlands",
@@ -497,14 +497,14 @@
       "notes": "Balanced squad",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.78035,
-        "round16": 0.50245,
-        "quarterfinal": 0.28825,
-        "semifinal": 0.1601,
-        "final": 0.08695,
-        "champion": 0.04735
+        "round32": 0.78715,
+        "round16": 0.49195,
+        "quarterfinal": 0.28325,
+        "semifinal": 0.15475,
+        "final": 0.0833,
+        "champion": 0.04485
       },
-      "expected_stage_score": 4.0566
+      "expected_stage_score": 3.97025
     },
     {
       "team": "Germany",
@@ -553,70 +553,14 @@
       "notes": "Tournament pedigree",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.7871,
-        "round16": 0.49455,
-        "quarterfinal": 0.27735,
-        "semifinal": 0.15015,
-        "final": 0.0817,
-        "champion": 0.04425
+        "round32": 0.7828,
+        "round16": 0.4882,
+        "quarterfinal": 0.27265,
+        "semifinal": 0.1439,
+        "final": 0.0763,
+        "champion": 0.04045
       },
-      "expected_stage_score": 3.9271000000000003
-    },
-    {
-      "team": "Morocco",
-      "confederation": "CAF",
-      "elo": 1945.0,
-      "fifa_rank": 13,
-      "fifa_points": 1685.0,
-      "form": 0.77,
-      "attack": 1.07,
-      "defense": 1.1,
-      "strength": 0.604502979106185,
-      "contributions": {
-        "elo": 0.16744186046511628,
-        "fifa": 0.023253118641068743,
-        "form": 0.11549999999999999,
-        "player": 0.161392,
-        "style": 0.0014000000000000002,
-        "matchup": 0.0007000000000000001,
-        "venue": 0.05288000000000001,
-        "context": 0.081936
-      },
-      "player_profile": {
-        "star_power": 0.77,
-        "squad_depth": 0.74,
-        "availability": 0.81,
-        "goalkeeper": 0.8,
-        "injury_risk": 0.1,
-        "score": 0.7336,
-        "notes": "Compact squad with strong defensive pieces"
-      },
-      "venue_profile": {
-        "venue_score": 0.52,
-        "travel_adaptation": 0.56,
-        "home_crowd": 0.5,
-        "score": 0.5288,
-        "notes": "Neutral venue estimate from user odds screenshots"
-      },
-      "tournament_context": {
-        "context_score": 0.68,
-        "draw_acceptability": 0.66,
-        "qualification_pressure": 0.7,
-        "third_place_buffer": 0.7,
-        "score": 0.6828,
-        "notes": "Neutral group-stage context estimate"
-      },
-      "notes": "Compact defensive style",
-      "probabilities": {
-        "group": 1.0,
-        "round32": 0.74005,
-        "round16": 0.44705,
-        "quarterfinal": 0.24485,
-        "semifinal": 0.12655,
-        "final": 0.06425,
-        "champion": 0.03275
-      },
-      "expected_stage_score": 3.4254000000000002
+      "expected_stage_score": 3.8174
     },
     {
       "team": "Uruguay",
@@ -665,14 +609,14 @@
       "notes": "High intensity style",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.74385,
-        "round16": 0.4362,
-        "quarterfinal": 0.2328,
-        "semifinal": 0.12045,
-        "final": 0.06385,
-        "champion": 0.03165
+        "round32": 0.74175,
+        "round16": 0.4399,
+        "quarterfinal": 0.2377,
+        "semifinal": 0.12005,
+        "final": 0.0622,
+        "champion": 0.03235
       },
-      "expected_stage_score": 3.3372500000000005
+      "expected_stage_score": 3.3522999999999996
     },
     {
       "team": "Belgium",
@@ -721,70 +665,14 @@
       "notes": "Transition generation",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.7496,
-        "round16": 0.44235,
-        "quarterfinal": 0.2312,
-        "semifinal": 0.1171,
-        "final": 0.05925,
-        "champion": 0.0291
+        "round32": 0.7411,
+        "round16": 0.429,
+        "quarterfinal": 0.2196,
+        "semifinal": 0.11345,
+        "final": 0.0578,
+        "champion": 0.03025
       },
-      "expected_stage_score": 3.29625
-    },
-    {
-      "team": "Canada",
-      "confederation": "CONCACAF",
-      "elo": 1818.0,
-      "fifa_rank": 28,
-      "fifa_points": 1568.0,
-      "form": 0.82,
-      "attack": 1.08,
-      "defense": 1.06,
-      "strength": 0.6023992957374972,
-      "contributions": {
-        "elo": 0.1201860465116279,
-        "fifa": 0.017961249225869235,
-        "form": 0.12299999999999998,
-        "player": 0.15743200000000002,
-        "style": 0.0007000000000000001,
-        "matchup": 0.0,
-        "venue": 0.09264000000000001,
-        "context": 0.09047999999999999
-      },
-      "player_profile": {
-        "star_power": 0.78,
-        "squad_depth": 0.7,
-        "availability": 0.84,
-        "goalkeeper": 0.74,
-        "injury_risk": 0.1,
-        "score": 0.7156,
-        "notes": "High-end pace with strong defensive run and host availability boost"
-      },
-      "venue_profile": {
-        "venue_score": 0.94,
-        "travel_adaptation": 0.9,
-        "home_crowd": 0.94,
-        "score": 0.9264000000000001,
-        "notes": "Co-host playing Group B opener at Toronto Stadium with strong venue history"
-      },
-      "tournament_context": {
-        "context_score": 0.78,
-        "draw_acceptability": 0.66,
-        "qualification_pressure": 0.82,
-        "third_place_buffer": 0.72,
-        "score": 0.754,
-        "notes": "Group B opener with valuable co-host qualification path"
-      },
-      "notes": "Host travel advantage approximation",
-      "probabilities": {
-        "group": 1.0,
-        "round32": 0.7375,
-        "round16": 0.4354,
-        "quarterfinal": 0.23,
-        "semifinal": 0.11485,
-        "final": 0.0565,
-        "champion": 0.02895
-      },
-      "expected_stage_score": 3.2428500000000007
+      "expected_stage_score": 3.2124499999999996
     },
     {
       "team": "USA",
@@ -833,70 +721,70 @@
       "notes": "Host travel advantage approximation",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.75115,
-        "round16": 0.45085,
-        "quarterfinal": 0.243,
-        "semifinal": 0.12075,
-        "final": 0.0585,
-        "champion": 0.02895
+        "round32": 0.7346,
+        "round16": 0.43855,
+        "quarterfinal": 0.2331,
+        "semifinal": 0.1181,
+        "final": 0.0593,
+        "champion": 0.0298
       },
-      "expected_stage_score": 3.3600000000000003
+      "expected_stage_score": 3.2885
     },
     {
-      "team": "Croatia",
-      "confederation": "UEFA",
-      "elo": 1955.0,
-      "fifa_rank": 12,
-      "fifa_points": 1698.0,
-      "form": 0.71,
-      "attack": 1.06,
-      "defense": 1.12,
-      "strength": 0.5697355352787591,
+      "team": "Canada",
+      "confederation": "CONCACAF",
+      "elo": 1818.0,
+      "fifa_rank": 28,
+      "fifa_points": 1568.0,
+      "form": 0.82,
+      "attack": 1.08,
+      "defense": 1.06,
+      "strength": 0.6023992957374972,
       "contributions": {
-        "elo": 0.17116279069767443,
-        "fifa": 0.023728744581084666,
-        "form": 0.1065,
-        "player": 0.156244,
-        "style": 0.0014000000000000002,
-        "matchup": 0.0007000000000000001,
-        "venue": 0.05,
-        "context": 0.06
+        "elo": 0.1201860465116279,
+        "fifa": 0.017961249225869235,
+        "form": 0.12299999999999998,
+        "player": 0.15743200000000002,
+        "style": 0.0007000000000000001,
+        "matchup": 0.0,
+        "venue": 0.09264000000000001,
+        "context": 0.09047999999999999
       },
       "player_profile": {
-        "star_power": 0.76,
-        "squad_depth": 0.73,
-        "availability": 0.79,
-        "goalkeeper": 0.8,
-        "injury_risk": 0.12,
-        "score": 0.7101999999999999,
-        "notes": "Experienced core"
+        "star_power": 0.78,
+        "squad_depth": 0.7,
+        "availability": 0.84,
+        "goalkeeper": 0.74,
+        "injury_risk": 0.1,
+        "score": 0.7156,
+        "notes": "High-end pace with strong defensive run and host availability boost"
       },
       "venue_profile": {
-        "venue_score": 0.5,
-        "travel_adaptation": 0.5,
-        "home_crowd": 0.5,
-        "score": 0.5,
-        "notes": "Neutral venue fallback"
+        "venue_score": 0.94,
+        "travel_adaptation": 0.9,
+        "home_crowd": 0.94,
+        "score": 0.9264000000000001,
+        "notes": "Co-host playing Group B opener at Toronto Stadium with strong venue history"
       },
       "tournament_context": {
-        "context_score": 0.5,
-        "draw_acceptability": 0.5,
-        "qualification_pressure": 0.5,
-        "third_place_buffer": 0.5,
-        "score": 0.5,
-        "notes": "Neutral tournament-context fallback"
+        "context_score": 0.78,
+        "draw_acceptability": 0.66,
+        "qualification_pressure": 0.82,
+        "third_place_buffer": 0.72,
+        "score": 0.754,
+        "notes": "Group B opener with valuable co-host qualification path"
       },
-      "notes": "Knockout experience",
+      "notes": "Host travel advantage approximation",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.7408,
-        "round16": 0.4163,
-        "quarterfinal": 0.2102,
-        "semifinal": 0.10555,
-        "final": 0.0528,
-        "champion": 0.02745
+        "round32": 0.73295,
+        "round16": 0.43065,
+        "quarterfinal": 0.2234,
+        "semifinal": 0.1106,
+        "final": 0.05775,
+        "champion": 0.02835
       },
-      "expected_stage_score": 3.08235
+      "expected_stage_score": 3.19405
     },
     {
       "team": "Colombia",
@@ -945,14 +833,14 @@
       "notes": "Recent form upside",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.71515,
-        "round16": 0.4148,
-        "quarterfinal": 0.21515,
-        "semifinal": 0.1079,
-        "final": 0.0541,
-        "champion": 0.02665
+        "round32": 0.71765,
+        "round16": 0.41035,
+        "quarterfinal": 0.21375,
+        "semifinal": 0.1051,
+        "final": 0.05435,
+        "champion": 0.0281
       },
-      "expected_stage_score": 3.07885
+      "expected_stage_score": 3.0684499999999995
     },
     {
       "team": "Italy",
@@ -1001,14 +889,126 @@
       "notes": "Defensive structure",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.74205,
-        "round16": 0.42795,
-        "quarterfinal": 0.2199,
-        "semifinal": 0.1098,
-        "final": 0.05515,
-        "champion": 0.02605
+        "round32": 0.73765,
+        "round16": 0.4277,
+        "quarterfinal": 0.2185,
+        "semifinal": 0.11435,
+        "final": 0.05695,
+        "champion": 0.0276
       },
-      "expected_stage_score": 3.15495
+      "expected_stage_score": 3.1838999999999995
+    },
+    {
+      "team": "Morocco",
+      "confederation": "CAF",
+      "elo": 1945.0,
+      "fifa_rank": 13,
+      "fifa_points": 1685.0,
+      "form": 0.77,
+      "attack": 1.07,
+      "defense": 1.1,
+      "strength": 0.604502979106185,
+      "contributions": {
+        "elo": 0.16744186046511628,
+        "fifa": 0.023253118641068743,
+        "form": 0.11549999999999999,
+        "player": 0.161392,
+        "style": 0.0014000000000000002,
+        "matchup": 0.0007000000000000001,
+        "venue": 0.05288000000000001,
+        "context": 0.081936
+      },
+      "player_profile": {
+        "star_power": 0.77,
+        "squad_depth": 0.74,
+        "availability": 0.81,
+        "goalkeeper": 0.8,
+        "injury_risk": 0.1,
+        "score": 0.7336,
+        "notes": "Compact squad with strong defensive pieces"
+      },
+      "venue_profile": {
+        "venue_score": 0.52,
+        "travel_adaptation": 0.56,
+        "home_crowd": 0.5,
+        "score": 0.5288,
+        "notes": "Neutral venue estimate from user odds screenshots"
+      },
+      "tournament_context": {
+        "context_score": 0.68,
+        "draw_acceptability": 0.66,
+        "qualification_pressure": 0.7,
+        "third_place_buffer": 0.7,
+        "score": 0.6828,
+        "notes": "Neutral group-stage context estimate"
+      },
+      "notes": "Compact defensive style",
+      "probabilities": {
+        "group": 1.0,
+        "round32": 0.74255,
+        "round16": 0.4405,
+        "quarterfinal": 0.24115,
+        "semifinal": 0.11825,
+        "final": 0.0575,
+        "champion": 0.0273
+      },
+      "expected_stage_score": 3.2986
+    },
+    {
+      "team": "Croatia",
+      "confederation": "UEFA",
+      "elo": 1955.0,
+      "fifa_rank": 12,
+      "fifa_points": 1698.0,
+      "form": 0.71,
+      "attack": 1.06,
+      "defense": 1.12,
+      "strength": 0.5697355352787591,
+      "contributions": {
+        "elo": 0.17116279069767443,
+        "fifa": 0.023728744581084666,
+        "form": 0.1065,
+        "player": 0.156244,
+        "style": 0.0014000000000000002,
+        "matchup": 0.0007000000000000001,
+        "venue": 0.05,
+        "context": 0.06
+      },
+      "player_profile": {
+        "star_power": 0.76,
+        "squad_depth": 0.73,
+        "availability": 0.79,
+        "goalkeeper": 0.8,
+        "injury_risk": 0.12,
+        "score": 0.7101999999999999,
+        "notes": "Experienced core"
+      },
+      "venue_profile": {
+        "venue_score": 0.5,
+        "travel_adaptation": 0.5,
+        "home_crowd": 0.5,
+        "score": 0.5,
+        "notes": "Neutral venue fallback"
+      },
+      "tournament_context": {
+        "context_score": 0.5,
+        "draw_acceptability": 0.5,
+        "qualification_pressure": 0.5,
+        "third_place_buffer": 0.5,
+        "score": 0.5,
+        "notes": "Neutral tournament-context fallback"
+      },
+      "notes": "Knockout experience",
+      "probabilities": {
+        "group": 1.0,
+        "round32": 0.7312,
+        "round16": 0.40925,
+        "quarterfinal": 0.2,
+        "semifinal": 0.09985,
+        "final": 0.0499,
+        "champion": 0.0249
+      },
+      "expected_stage_score": 2.9729
     },
     {
       "team": "Switzerland",
@@ -1057,14 +1057,126 @@
       "notes": "No optional adjustment supplied",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.71605,
-        "round16": 0.3947,
-        "quarterfinal": 0.1912,
-        "semifinal": 0.09445,
-        "final": 0.04435,
-        "champion": 0.0209
+        "round32": 0.70165,
+        "round16": 0.38075,
+        "quarterfinal": 0.1845,
+        "semifinal": 0.0912,
+        "final": 0.04605,
+        "champion": 0.02245
       },
-      "expected_stage_score": 2.8249000000000004
+      "expected_stage_score": 2.76885
+    },
+    {
+      "team": "Senegal",
+      "confederation": "CAF",
+      "elo": 1878.0,
+      "fifa_rank": 20,
+      "fifa_points": 1627.0,
+      "form": 0.73,
+      "attack": 1.05,
+      "defense": 1.06,
+      "strength": 0.5553508925269892,
+      "contributions": {
+        "elo": 0.14251162790697675,
+        "fifa": 0.020703264620012388,
+        "form": 0.1095,
+        "player": 0.14982000000000004,
+        "style": 0.0,
+        "matchup": 0.0,
+        "venue": 0.05088000000000001,
+        "context": 0.081936
+      },
+      "player_profile": {
+        "star_power": 0.73,
+        "squad_depth": 0.7,
+        "availability": 0.8,
+        "goalkeeper": 0.76,
+        "injury_risk": 0.11,
+        "score": 0.6810000000000002,
+        "notes": "Transparent estimate until lineup data is imported"
+      },
+      "venue_profile": {
+        "venue_score": 0.5,
+        "travel_adaptation": 0.54,
+        "home_crowd": 0.48,
+        "score": 0.5088,
+        "notes": "Neutral venue estimate from user odds screenshots"
+      },
+      "tournament_context": {
+        "context_score": 0.68,
+        "draw_acceptability": 0.66,
+        "qualification_pressure": 0.7,
+        "third_place_buffer": 0.7,
+        "score": 0.6828,
+        "notes": "Neutral group-stage context estimate"
+      },
+      "notes": "No optional adjustment supplied",
+      "probabilities": {
+        "group": 1.0,
+        "round32": 0.7243,
+        "round16": 0.3834,
+        "quarterfinal": 0.1777,
+        "semifinal": 0.08885,
+        "final": 0.04525,
+        "champion": 0.0211
+      },
+      "expected_stage_score": 2.7535499999999997
+    },
+    {
+      "team": "Austria",
+      "confederation": "UEFA",
+      "elo": 1870.0,
+      "fifa_rank": 21,
+      "fifa_points": 1618.0,
+      "form": 0.75,
+      "attack": 1.04,
+      "defense": 1.05,
+      "strength": 0.559321010589903,
+      "contributions": {
+        "elo": 0.13953488372093023,
+        "fifa": 0.02032212686897284,
+        "form": 0.11249999999999999,
+        "player": 0.148192,
+        "style": 0.0,
+        "matchup": 0.0,
+        "venue": 0.05530000000000001,
+        "context": 0.08347199999999998
+      },
+      "player_profile": {
+        "star_power": 0.72,
+        "squad_depth": 0.7,
+        "availability": 0.8,
+        "goalkeeper": 0.72,
+        "injury_risk": 0.1,
+        "score": 0.6736,
+        "notes": "Transparent estimate until lineup data is imported"
+      },
+      "venue_profile": {
+        "venue_score": 0.55,
+        "travel_adaptation": 0.58,
+        "home_crowd": 0.52,
+        "score": 0.553,
+        "notes": "Neutral venue estimate from user odds screenshots"
+      },
+      "tournament_context": {
+        "context_score": 0.7,
+        "draw_acceptability": 0.66,
+        "qualification_pressure": 0.72,
+        "third_place_buffer": 0.7,
+        "score": 0.6955999999999999,
+        "notes": "Neutral group-stage context estimate"
+      },
+      "notes": "No optional adjustment supplied",
+      "probabilities": {
+        "group": 1.0,
+        "round32": 0.7009,
+        "round16": 0.3742,
+        "quarterfinal": 0.1753,
+        "semifinal": 0.0867,
+        "final": 0.04025,
+        "champion": 0.0194
+      },
+      "expected_stage_score": 2.65905
     },
     {
       "team": "Japan",
@@ -1113,238 +1225,70 @@
       "notes": "No optional adjustment supplied",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.6934,
-        "round16": 0.36925,
-        "quarterfinal": 0.1725,
-        "semifinal": 0.0855,
-        "final": 0.0416,
-        "champion": 0.02025
+        "round32": 0.6979,
+        "round16": 0.3564,
+        "quarterfinal": 0.15665,
+        "semifinal": 0.07945,
+        "final": 0.0362,
+        "champion": 0.01585
       },
-      "expected_stage_score": 2.6411500000000006
+      "expected_stage_score": 2.4903999999999997
     },
     {
-      "team": "Senegal",
-      "confederation": "CAF",
-      "elo": 1878.0,
-      "fifa_rank": 20,
-      "fifa_points": 1627.0,
-      "form": 0.73,
-      "attack": 1.05,
-      "defense": 1.06,
-      "strength": 0.48611489252698914,
+      "team": "Norway",
+      "confederation": "UEFA",
+      "elo": 1798.0,
+      "fifa_rank": 32,
+      "fifa_points": 1548.0,
+      "form": 0.78,
+      "attack": 1.06,
+      "defense": 0.97,
+      "strength": 0.5334148370241282,
       "contributions": {
-        "elo": 0.14251162790697675,
-        "fifa": 0.020703264620012388,
-        "form": 0.1095,
-        "player": 0.1034,
+        "elo": 0.11274418604651162,
+        "fifa": 0.01681465097761656,
+        "form": 0.11699999999999999,
+        "player": 0.14766400000000002,
         "style": 0.0,
         "matchup": 0.0,
-        "venue": 0.05,
-        "context": 0.06
+        "venue": 0.055720000000000006,
+        "context": 0.08347199999999998
       },
       "player_profile": {
-        "star_power": 0.5,
-        "squad_depth": 0.5,
-        "availability": 0.5,
-        "goalkeeper": 0.5,
-        "injury_risk": 0.0,
-        "score": 0.47000000000000003,
-        "notes": "Neutral player profile fallback"
-      },
-      "venue_profile": {
-        "venue_score": 0.5,
-        "travel_adaptation": 0.5,
-        "home_crowd": 0.5,
-        "score": 0.5,
-        "notes": "Neutral venue fallback"
-      },
-      "tournament_context": {
-        "context_score": 0.5,
-        "draw_acceptability": 0.5,
-        "qualification_pressure": 0.5,
-        "third_place_buffer": 0.5,
-        "score": 0.5,
-        "notes": "Neutral tournament-context fallback"
-      },
-      "notes": "No optional adjustment supplied",
-      "probabilities": {
-        "group": 1.0,
-        "round32": 0.6863,
-        "round16": 0.3346,
-        "quarterfinal": 0.1456,
-        "semifinal": 0.06985,
-        "final": 0.0326,
-        "champion": 0.01475
-      },
-      "expected_stage_score": 2.33795
-    },
-    {
-      "team": "Mexico",
-      "confederation": "CONCACAF",
-      "elo": 1905.0,
-      "fifa_rank": 16,
-      "fifa_points": 1655.0,
-      "form": 0.68,
-      "attack": 1.04,
-      "defense": 1.05,
-      "strength": 0.49289697878110156,
-      "contributions": {
-        "elo": 0.15255813953488373,
-        "fifa": 0.022038839246217818,
-        "form": 0.10200000000000001,
-        "player": 0.10560000000000001,
-        "style": 0.0007000000000000001,
-        "matchup": 0.0,
-        "venue": 0.05,
-        "context": 0.06
-      },
-      "player_profile": {
-        "star_power": 0.5,
-        "squad_depth": 0.5,
-        "availability": 0.5,
-        "goalkeeper": 0.5,
-        "injury_risk": 0.0,
-        "score": 0.48000000000000004,
-        "notes": "Neutral player profile fallback"
-      },
-      "venue_profile": {
-        "venue_score": 0.5,
-        "travel_adaptation": 0.5,
-        "home_crowd": 0.5,
-        "score": 0.5,
-        "notes": "Neutral venue fallback"
-      },
-      "tournament_context": {
-        "context_score": 0.5,
-        "draw_acceptability": 0.5,
-        "qualification_pressure": 0.5,
-        "third_place_buffer": 0.5,
-        "score": 0.5,
-        "notes": "Neutral tournament-context fallback"
-      },
-      "notes": "Host travel advantage approximation",
-      "probabilities": {
-        "group": 1.0,
-        "round32": 0.67305,
-        "round16": 0.3292,
-        "quarterfinal": 0.1392,
-        "semifinal": 0.06565,
-        "final": 0.03055,
-        "champion": 0.0135
-      },
-      "expected_stage_score": 2.2589
-    },
-    {
-      "team": "Australia",
-      "confederation": "AFC",
-      "elo": 1825.0,
-      "fifa_rank": 27,
-      "fifa_points": 1574.0,
-      "form": 0.67,
-      "attack": 1.0,
-      "defense": 1.03,
-      "strength": 0.5037062185095952,
-      "contributions": {
-        "elo": 0.12279069767441861,
-        "fifa": 0.0182715208351765,
-        "form": 0.1005,
-        "player": 0.13182400000000002,
-        "style": 0.0,
-        "matchup": 0.0,
-        "venue": 0.05088000000000001,
-        "context": 0.07943999999999998
-      },
-      "player_profile": {
-        "star_power": 0.61,
-        "squad_depth": 0.6,
+        "star_power": 0.78,
+        "squad_depth": 0.66,
         "availability": 0.78,
-        "goalkeeper": 0.67,
-        "injury_risk": 0.11,
-        "score": 0.5992000000000001,
-        "notes": "Physical squad with reliable availability"
+        "goalkeeper": 0.68,
+        "injury_risk": 0.12,
+        "score": 0.6712000000000001,
+        "notes": "Transparent estimate until lineup data is imported"
       },
       "venue_profile": {
-        "venue_score": 0.5,
-        "travel_adaptation": 0.54,
-        "home_crowd": 0.48,
-        "score": 0.5088,
+        "venue_score": 0.56,
+        "travel_adaptation": 0.58,
+        "home_crowd": 0.52,
+        "score": 0.5572,
         "notes": "Neutral venue estimate from user odds screenshots"
       },
       "tournament_context": {
-        "context_score": 0.62,
-        "draw_acceptability": 0.72,
-        "qualification_pressure": 0.66,
+        "context_score": 0.7,
+        "draw_acceptability": 0.66,
+        "qualification_pressure": 0.72,
         "third_place_buffer": 0.7,
-        "score": 0.6619999999999999,
+        "score": 0.6955999999999999,
         "notes": "Neutral group-stage context estimate"
       },
       "notes": "No optional adjustment supplied",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.6257,
-        "round16": 0.30745,
-        "quarterfinal": 0.13295,
-        "semifinal": 0.06335,
-        "final": 0.02945,
-        "champion": 0.0134
+        "round32": 0.6663,
+        "round16": 0.3358,
+        "quarterfinal": 0.15035,
+        "semifinal": 0.07225,
+        "final": 0.034,
+        "champion": 0.0149
       },
-      "expected_stage_score": 2.1339
-    },
-    {
-      "team": "Ecuador",
-      "confederation": "CONMEBOL",
-      "elo": 1855.0,
-      "fifa_rank": 23,
-      "fifa_points": 1602.0,
-      "form": 0.7,
-      "attack": 1.02,
-      "defense": 1.06,
-      "strength": 0.4962965838334749,
-      "contributions": {
-        "elo": 0.133953488372093,
-        "fifa": 0.019607095461381934,
-        "form": 0.105,
-        "player": 0.1034,
-        "style": 0.0,
-        "matchup": 0.0,
-        "venue": 0.05288000000000001,
-        "context": 0.08145599999999999
-      },
-      "player_profile": {
-        "star_power": 0.5,
-        "squad_depth": 0.5,
-        "availability": 0.5,
-        "goalkeeper": 0.5,
-        "injury_risk": 0.0,
-        "score": 0.47000000000000003,
-        "notes": "Neutral player profile fallback"
-      },
-      "venue_profile": {
-        "venue_score": 0.52,
-        "travel_adaptation": 0.56,
-        "home_crowd": 0.5,
-        "score": 0.5288,
-        "notes": "Neutral venue estimate from user odds screenshots"
-      },
-      "tournament_context": {
-        "context_score": 0.66,
-        "draw_acceptability": 0.7,
-        "qualification_pressure": 0.68,
-        "third_place_buffer": 0.7,
-        "score": 0.6788,
-        "notes": "Neutral group-stage context estimate"
-      },
-      "notes": "No optional adjustment supplied",
-      "probabilities": {
-        "group": 1.0,
-        "round32": 0.69165,
-        "round16": 0.3417,
-        "quarterfinal": 0.14495,
-        "semifinal": 0.0694,
-        "final": 0.0301,
-        "champion": 0.0132
-      },
-      "expected_stage_score": 2.3304
+      "expected_stage_score": 2.3522499999999997
     },
     {
       "team": "Turkey",
@@ -1393,126 +1337,14 @@
       "notes": "No optional adjustment supplied",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.65085,
-        "round16": 0.33535,
-        "quarterfinal": 0.14655,
-        "semifinal": 0.06815,
-        "final": 0.0307,
+        "round32": 0.6432,
+        "round16": 0.3124,
+        "quarterfinal": 0.1353,
+        "semifinal": 0.06545,
+        "final": 0.0289,
         "champion": 0.0131
       },
-      "expected_stage_score": 2.2790000000000004
-    },
-    {
-      "team": "Austria",
-      "confederation": "UEFA",
-      "elo": 1870.0,
-      "fifa_rank": 21,
-      "fifa_points": 1618.0,
-      "form": 0.75,
-      "attack": 1.04,
-      "defense": 1.05,
-      "strength": 0.48575701058990306,
-      "contributions": {
-        "elo": 0.13953488372093023,
-        "fifa": 0.02032212686897284,
-        "form": 0.11249999999999999,
-        "player": 0.1034,
-        "style": 0.0,
-        "matchup": 0.0,
-        "venue": 0.05,
-        "context": 0.06
-      },
-      "player_profile": {
-        "star_power": 0.5,
-        "squad_depth": 0.5,
-        "availability": 0.5,
-        "goalkeeper": 0.5,
-        "injury_risk": 0.0,
-        "score": 0.47000000000000003,
-        "notes": "Neutral player profile fallback"
-      },
-      "venue_profile": {
-        "venue_score": 0.5,
-        "travel_adaptation": 0.5,
-        "home_crowd": 0.5,
-        "score": 0.5,
-        "notes": "Neutral venue fallback"
-      },
-      "tournament_context": {
-        "context_score": 0.5,
-        "draw_acceptability": 0.5,
-        "qualification_pressure": 0.5,
-        "third_place_buffer": 0.5,
-        "score": 0.5,
-        "notes": "Neutral tournament-context fallback"
-      },
-      "notes": "No optional adjustment supplied",
-      "probabilities": {
-        "group": 1.0,
-        "round32": 0.66205,
-        "round16": 0.32185,
-        "quarterfinal": 0.13735,
-        "semifinal": 0.0641,
-        "final": 0.028,
-        "champion": 0.0123
-      },
-      "expected_stage_score": 2.2003000000000004
-    },
-    {
-      "team": "South Korea",
-      "confederation": "AFC",
-      "elo": 1860.0,
-      "fifa_rank": 22,
-      "fifa_points": 1608.0,
-      "form": 0.71,
-      "attack": 1.05,
-      "defense": 1.02,
-      "strength": 0.47563132055906127,
-      "contributions": {
-        "elo": 0.13581395348837208,
-        "fifa": 0.019917367070689196,
-        "form": 0.1065,
-        "player": 0.1034,
-        "style": 0.0,
-        "matchup": 0.0,
-        "venue": 0.05,
-        "context": 0.06
-      },
-      "player_profile": {
-        "star_power": 0.5,
-        "squad_depth": 0.5,
-        "availability": 0.5,
-        "goalkeeper": 0.5,
-        "injury_risk": 0.0,
-        "score": 0.47000000000000003,
-        "notes": "Neutral player profile fallback"
-      },
-      "venue_profile": {
-        "venue_score": 0.5,
-        "travel_adaptation": 0.5,
-        "home_crowd": 0.5,
-        "score": 0.5,
-        "notes": "Neutral venue fallback"
-      },
-      "tournament_context": {
-        "context_score": 0.5,
-        "draw_acceptability": 0.5,
-        "qualification_pressure": 0.5,
-        "third_place_buffer": 0.5,
-        "score": 0.5,
-        "notes": "Neutral tournament-context fallback"
-      },
-      "notes": "No optional adjustment supplied",
-      "probabilities": {
-        "group": 1.0,
-        "round32": 0.6462,
-        "round16": 0.29515,
-        "quarterfinal": 0.12935,
-        "semifinal": 0.05815,
-        "final": 0.02525,
-        "champion": 0.0118
-      },
-      "expected_stage_score": 2.066
+      "expected_stage_score": 2.1719
     },
     {
       "team": "Denmark",
@@ -1561,31 +1393,143 @@
       "notes": "No optional adjustment supplied",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.6685,
-        "round16": 0.3175,
-        "quarterfinal": 0.13965,
-        "semifinal": 0.0623,
-        "final": 0.0259,
-        "champion": 0.01075
+        "round32": 0.66885,
+        "round16": 0.3047,
+        "quarterfinal": 0.131,
+        "semifinal": 0.05915,
+        "final": 0.02645,
+        "champion": 0.01245
       },
-      "expected_stage_score": 2.1764
+      "expected_stage_score": 2.1272499999999996
     },
     {
-      "team": "Iran",
-      "confederation": "AFC",
-      "elo": 1848.0,
-      "fifa_rank": 24,
-      "fifa_points": 1595.0,
-      "form": 0.72,
-      "attack": 1.03,
-      "defense": 1.03,
-      "strength": 0.4720220390141329,
+      "team": "Ecuador",
+      "confederation": "CONMEBOL",
+      "elo": 1855.0,
+      "fifa_rank": 23,
+      "fifa_points": 1602.0,
+      "form": 0.7,
+      "attack": 1.02,
+      "defense": 1.06,
+      "strength": 0.4962965838334749,
       "contributions": {
-        "elo": 0.13134883720930232,
-        "fifa": 0.019273201804830574,
-        "form": 0.108,
+        "elo": 0.133953488372093,
+        "fifa": 0.019607095461381934,
+        "form": 0.105,
         "player": 0.1034,
         "style": 0.0,
+        "matchup": 0.0,
+        "venue": 0.05288000000000001,
+        "context": 0.08145599999999999
+      },
+      "player_profile": {
+        "star_power": 0.5,
+        "squad_depth": 0.5,
+        "availability": 0.5,
+        "goalkeeper": 0.5,
+        "injury_risk": 0.0,
+        "score": 0.47000000000000003,
+        "notes": "Neutral player profile fallback"
+      },
+      "venue_profile": {
+        "venue_score": 0.52,
+        "travel_adaptation": 0.56,
+        "home_crowd": 0.5,
+        "score": 0.5288,
+        "notes": "Neutral venue estimate from user odds screenshots"
+      },
+      "tournament_context": {
+        "context_score": 0.66,
+        "draw_acceptability": 0.7,
+        "qualification_pressure": 0.68,
+        "third_place_buffer": 0.7,
+        "score": 0.6788,
+        "notes": "Neutral group-stage context estimate"
+      },
+      "notes": "No optional adjustment supplied",
+      "probabilities": {
+        "group": 1.0,
+        "round32": 0.67985,
+        "round16": 0.32435,
+        "quarterfinal": 0.1348,
+        "semifinal": 0.06205,
+        "final": 0.02785,
+        "champion": 0.01215
+      },
+      "expected_stage_score": 2.2054499999999995
+    },
+    {
+      "team": "Australia",
+      "confederation": "AFC",
+      "elo": 1825.0,
+      "fifa_rank": 27,
+      "fifa_points": 1574.0,
+      "form": 0.67,
+      "attack": 1.0,
+      "defense": 1.03,
+      "strength": 0.5037062185095952,
+      "contributions": {
+        "elo": 0.12279069767441861,
+        "fifa": 0.0182715208351765,
+        "form": 0.1005,
+        "player": 0.13182400000000002,
+        "style": 0.0,
+        "matchup": 0.0,
+        "venue": 0.05088000000000001,
+        "context": 0.07943999999999998
+      },
+      "player_profile": {
+        "star_power": 0.61,
+        "squad_depth": 0.6,
+        "availability": 0.78,
+        "goalkeeper": 0.67,
+        "injury_risk": 0.11,
+        "score": 0.5992000000000001,
+        "notes": "Physical squad with reliable availability"
+      },
+      "venue_profile": {
+        "venue_score": 0.5,
+        "travel_adaptation": 0.54,
+        "home_crowd": 0.48,
+        "score": 0.5088,
+        "notes": "Neutral venue estimate from user odds screenshots"
+      },
+      "tournament_context": {
+        "context_score": 0.62,
+        "draw_acceptability": 0.72,
+        "qualification_pressure": 0.66,
+        "third_place_buffer": 0.7,
+        "score": 0.6619999999999999,
+        "notes": "Neutral group-stage context estimate"
+      },
+      "notes": "No optional adjustment supplied",
+      "probabilities": {
+        "group": 1.0,
+        "round32": 0.62105,
+        "round16": 0.29515,
+        "quarterfinal": 0.12645,
+        "semifinal": 0.0597,
+        "final": 0.02855,
+        "champion": 0.0121
+      },
+      "expected_stage_score": 2.0569499999999996
+    },
+    {
+      "team": "Mexico",
+      "confederation": "CONCACAF",
+      "elo": 1905.0,
+      "fifa_rank": 16,
+      "fifa_points": 1655.0,
+      "form": 0.68,
+      "attack": 1.04,
+      "defense": 1.05,
+      "strength": 0.49289697878110156,
+      "contributions": {
+        "elo": 0.15255813953488373,
+        "fifa": 0.022038839246217818,
+        "form": 0.10200000000000001,
+        "player": 0.10560000000000001,
+        "style": 0.0007000000000000001,
         "matchup": 0.0,
         "venue": 0.05,
         "context": 0.06
@@ -1596,7 +1540,7 @@
         "availability": 0.5,
         "goalkeeper": 0.5,
         "injury_risk": 0.0,
-        "score": 0.47000000000000003,
+        "score": 0.48000000000000004,
         "notes": "Neutral player profile fallback"
       },
       "venue_profile": {
@@ -1614,17 +1558,17 @@
         "score": 0.5,
         "notes": "Neutral tournament-context fallback"
       },
-      "notes": "No optional adjustment supplied",
+      "notes": "Host travel advantage approximation",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.62255,
-        "round16": 0.278,
-        "quarterfinal": 0.12385,
-        "semifinal": 0.054,
-        "final": 0.02305,
-        "champion": 0.01015
+        "round32": 0.6587,
+        "round16": 0.31345,
+        "quarterfinal": 0.134,
+        "semifinal": 0.06185,
+        "final": 0.0293,
+        "champion": 0.01145
       },
-      "expected_stage_score": 1.9524000000000001
+      "expected_stage_score": 2.1616500000000003
     },
     {
       "team": "Paraguay",
@@ -1673,29 +1617,29 @@
       "notes": "No optional adjustment supplied",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.6432,
-        "round16": 0.2947,
-        "quarterfinal": 0.12445,
-        "semifinal": 0.05375,
-        "final": 0.02395,
-        "champion": 0.0101
+        "round32": 0.63475,
+        "round16": 0.28405,
+        "quarterfinal": 0.1216,
+        "semifinal": 0.0519,
+        "final": 0.02365,
+        "champion": 0.0105
       },
-      "expected_stage_score": 2.0114000000000005
+      "expected_stage_score": 1.967
     },
     {
-      "team": "Serbia",
-      "confederation": "UEFA",
-      "elo": 1840.0,
-      "fifa_rank": 25,
-      "fifa_points": 1588.0,
-      "form": 0.64,
-      "attack": 1.04,
-      "defense": 1.0,
-      "strength": 0.456711401171535,
+      "team": "South Korea",
+      "confederation": "AFC",
+      "elo": 1860.0,
+      "fifa_rank": 22,
+      "fifa_points": 1608.0,
+      "form": 0.71,
+      "attack": 1.05,
+      "defense": 1.02,
+      "strength": 0.47563132055906127,
       "contributions": {
-        "elo": 0.1283720930232558,
-        "fifa": 0.018939308148279217,
-        "form": 0.096,
+        "elo": 0.13581395348837208,
+        "fifa": 0.019917367070689196,
+        "form": 0.1065,
         "player": 0.1034,
         "style": 0.0,
         "matchup": 0.0,
@@ -1729,14 +1673,126 @@
       "notes": "No optional adjustment supplied",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.60725,
-        "round16": 0.2593,
-        "quarterfinal": 0.11705,
-        "semifinal": 0.05145,
-        "final": 0.02135,
-        "champion": 0.0099
+        "round32": 0.65405,
+        "round16": 0.2872,
+        "quarterfinal": 0.12645,
+        "semifinal": 0.05625,
+        "final": 0.0234,
+        "champion": 0.01015
       },
-      "expected_stage_score": 1.8588499999999997
+      "expected_stage_score": 2.0208500000000003
+    },
+    {
+      "team": "Iran",
+      "confederation": "AFC",
+      "elo": 1848.0,
+      "fifa_rank": 24,
+      "fifa_points": 1595.0,
+      "form": 0.72,
+      "attack": 1.03,
+      "defense": 1.03,
+      "strength": 0.4720220390141329,
+      "contributions": {
+        "elo": 0.13134883720930232,
+        "fifa": 0.019273201804830574,
+        "form": 0.108,
+        "player": 0.1034,
+        "style": 0.0,
+        "matchup": 0.0,
+        "venue": 0.05,
+        "context": 0.06
+      },
+      "player_profile": {
+        "star_power": 0.5,
+        "squad_depth": 0.5,
+        "availability": 0.5,
+        "goalkeeper": 0.5,
+        "injury_risk": 0.0,
+        "score": 0.47000000000000003,
+        "notes": "Neutral player profile fallback"
+      },
+      "venue_profile": {
+        "venue_score": 0.5,
+        "travel_adaptation": 0.5,
+        "home_crowd": 0.5,
+        "score": 0.5,
+        "notes": "Neutral venue fallback"
+      },
+      "tournament_context": {
+        "context_score": 0.5,
+        "draw_acceptability": 0.5,
+        "qualification_pressure": 0.5,
+        "third_place_buffer": 0.5,
+        "score": 0.5,
+        "notes": "Neutral tournament-context fallback"
+      },
+      "notes": "No optional adjustment supplied",
+      "probabilities": {
+        "group": 1.0,
+        "round32": 0.6217,
+        "round16": 0.27385,
+        "quarterfinal": 0.1222,
+        "semifinal": 0.0544,
+        "final": 0.02385,
+        "champion": 0.0101
+      },
+      "expected_stage_score": 1.94355
+    },
+    {
+      "team": "Algeria",
+      "confederation": "CAF",
+      "elo": 1760.0,
+      "fifa_rank": 38,
+      "fifa_points": 1508.0,
+      "form": 0.66,
+      "attack": 1.01,
+      "defense": 0.98,
+      "strength": 0.4777991842955873,
+      "contributions": {
+        "elo": 0.0986046511627907,
+        "fifa": 0.014858533132796602,
+        "form": 0.099,
+        "player": 0.13754400000000003,
+        "style": 0.0,
+        "matchup": 0.0,
+        "venue": 0.04888,
+        "context": 0.078912
+      },
+      "player_profile": {
+        "star_power": 0.68,
+        "squad_depth": 0.64,
+        "availability": 0.76,
+        "goalkeeper": 0.66,
+        "injury_risk": 0.12,
+        "score": 0.6252000000000001,
+        "notes": "Transparent estimate until lineup data is imported"
+      },
+      "venue_profile": {
+        "venue_score": 0.48,
+        "travel_adaptation": 0.52,
+        "home_crowd": 0.46,
+        "score": 0.48879999999999996,
+        "notes": "Neutral venue estimate from user odds screenshots"
+      },
+      "tournament_context": {
+        "context_score": 0.62,
+        "draw_acceptability": 0.72,
+        "qualification_pressure": 0.64,
+        "third_place_buffer": 0.7,
+        "score": 0.6576,
+        "notes": "Neutral group-stage context estimate"
+      },
+      "notes": "No optional adjustment supplied",
+      "probabilities": {
+        "group": 1.0,
+        "round32": 0.5956,
+        "round16": 0.2661,
+        "quarterfinal": 0.1151,
+        "semifinal": 0.04825,
+        "final": 0.02025,
+        "champion": 0.00915
+      },
+      "expected_stage_score": 1.8314000000000001
     },
     {
       "team": "Ukraine",
@@ -1785,29 +1841,29 @@
       "notes": "No optional adjustment supplied",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.65815,
-        "round16": 0.2861,
-        "quarterfinal": 0.125,
-        "semifinal": 0.0559,
-        "final": 0.02395,
-        "champion": 0.00975
+        "round32": 0.64785,
+        "round16": 0.27285,
+        "quarterfinal": 0.11895,
+        "semifinal": 0.0517,
+        "final": 0.02215,
+        "champion": 0.009
       },
-      "expected_stage_score": 2.01695
+      "expected_stage_score": 1.9309500000000002
     },
     {
-      "team": "Norway",
+      "team": "Serbia",
       "confederation": "UEFA",
-      "elo": 1798.0,
-      "fifa_rank": 32,
-      "fifa_points": 1548.0,
-      "form": 0.78,
-      "attack": 1.06,
-      "defense": 0.97,
-      "strength": 0.4599588370241282,
+      "elo": 1840.0,
+      "fifa_rank": 25,
+      "fifa_points": 1588.0,
+      "form": 0.64,
+      "attack": 1.04,
+      "defense": 1.0,
+      "strength": 0.456711401171535,
       "contributions": {
-        "elo": 0.11274418604651162,
-        "fifa": 0.01681465097761656,
-        "form": 0.11699999999999999,
+        "elo": 0.1283720930232558,
+        "fifa": 0.018939308148279217,
+        "form": 0.096,
         "player": 0.1034,
         "style": 0.0,
         "matchup": 0.0,
@@ -1841,14 +1897,14 @@
       "notes": "No optional adjustment supplied",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.61905,
-        "round16": 0.2632,
-        "quarterfinal": 0.11345,
-        "semifinal": 0.0483,
-        "final": 0.02205,
-        "champion": 0.00915
+        "round32": 0.60535,
+        "round16": 0.2544,
+        "quarterfinal": 0.1135,
+        "semifinal": 0.04845,
+        "final": 0.02045,
+        "champion": 0.0089
       },
-      "expected_stage_score": 1.8532999999999997
+      "expected_stage_score": 1.813
     },
     {
       "team": "Sweden",
@@ -1897,294 +1953,14 @@
       "notes": "No optional adjustment supplied",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.6389,
-        "round16": 0.2687,
-        "quarterfinal": 0.1164,
-        "semifinal": 0.0501,
-        "final": 0.0201,
-        "champion": 0.00845
+        "round32": 0.62485,
+        "round16": 0.2572,
+        "quarterfinal": 0.1148,
+        "semifinal": 0.0482,
+        "final": 0.01965,
+        "champion": 0.00805
       },
-      "expected_stage_score": 1.8855499999999998
-    },
-    {
-      "team": "Nigeria",
-      "confederation": "CAF",
-      "elo": 1778.0,
-      "fifa_rank": 36,
-      "fifa_points": 1525.0,
-      "form": 0.69,
-      "attack": 1.04,
-      "defense": 0.97,
-      "strength": 0.43779951216902696,
-      "contributions": {
-        "elo": 0.10530232558139534,
-        "fifa": 0.015597186587631599,
-        "form": 0.1035,
-        "player": 0.1034,
-        "style": 0.0,
-        "matchup": 0.0,
-        "venue": 0.05,
-        "context": 0.06
-      },
-      "player_profile": {
-        "star_power": 0.5,
-        "squad_depth": 0.5,
-        "availability": 0.5,
-        "goalkeeper": 0.5,
-        "injury_risk": 0.0,
-        "score": 0.47000000000000003,
-        "notes": "Neutral player profile fallback"
-      },
-      "venue_profile": {
-        "venue_score": 0.5,
-        "travel_adaptation": 0.5,
-        "home_crowd": 0.5,
-        "score": 0.5,
-        "notes": "Neutral venue fallback"
-      },
-      "tournament_context": {
-        "context_score": 0.5,
-        "draw_acceptability": 0.5,
-        "qualification_pressure": 0.5,
-        "third_place_buffer": 0.5,
-        "score": 0.5,
-        "notes": "Neutral tournament-context fallback"
-      },
-      "notes": "No optional adjustment supplied",
-      "probabilities": {
-        "group": 1.0,
-        "round32": 0.5997,
-        "round16": 0.23535,
-        "quarterfinal": 0.1031,
-        "semifinal": 0.04165,
-        "final": 0.01755,
-        "champion": 0.0079
-      },
-      "expected_stage_score": 1.6893500000000001
-    },
-    {
-      "team": "Egypt",
-      "confederation": "CAF",
-      "elo": 1780.0,
-      "fifa_rank": 35,
-      "fifa_points": 1528.0,
-      "form": 0.72,
-      "attack": 1.03,
-      "defense": 0.99,
-      "strength": 0.4432831036831136,
-      "contributions": {
-        "elo": 0.10604651162790697,
-        "fifa": 0.015836592055206582,
-        "form": 0.108,
-        "player": 0.1034,
-        "style": 0.0,
-        "matchup": 0.0,
-        "venue": 0.05,
-        "context": 0.06
-      },
-      "player_profile": {
-        "star_power": 0.5,
-        "squad_depth": 0.5,
-        "availability": 0.5,
-        "goalkeeper": 0.5,
-        "injury_risk": 0.0,
-        "score": 0.47000000000000003,
-        "notes": "Neutral player profile fallback"
-      },
-      "venue_profile": {
-        "venue_score": 0.5,
-        "travel_adaptation": 0.5,
-        "home_crowd": 0.5,
-        "score": 0.5,
-        "notes": "Neutral venue fallback"
-      },
-      "tournament_context": {
-        "context_score": 0.5,
-        "draw_acceptability": 0.5,
-        "qualification_pressure": 0.5,
-        "third_place_buffer": 0.5,
-        "score": 0.5,
-        "notes": "Neutral tournament-context fallback"
-      },
-      "notes": "No optional adjustment supplied",
-      "probabilities": {
-        "group": 1.0,
-        "round32": 0.618,
-        "round16": 0.24945,
-        "quarterfinal": 0.10925,
-        "semifinal": 0.0443,
-        "final": 0.0195,
-        "champion": 0.0072
-      },
-      "expected_stage_score": 1.76975
-    },
-    {
-      "team": "Poland",
-      "confederation": "UEFA",
-      "elo": 1805.0,
-      "fifa_rank": 30,
-      "fifa_points": 1555.0,
-      "form": 0.61,
-      "attack": 1.01,
-      "defense": 1.0,
-      "strength": 0.4375659211693129,
-      "contributions": {
-        "elo": 0.11534883720930232,
-        "fifa": 0.017317083960010613,
-        "form": 0.0915,
-        "player": 0.1034,
-        "style": 0.0,
-        "matchup": 0.0,
-        "venue": 0.05,
-        "context": 0.06
-      },
-      "player_profile": {
-        "star_power": 0.5,
-        "squad_depth": 0.5,
-        "availability": 0.5,
-        "goalkeeper": 0.5,
-        "injury_risk": 0.0,
-        "score": 0.47000000000000003,
-        "notes": "Neutral player profile fallback"
-      },
-      "venue_profile": {
-        "venue_score": 0.5,
-        "travel_adaptation": 0.5,
-        "home_crowd": 0.5,
-        "score": 0.5,
-        "notes": "Neutral venue fallback"
-      },
-      "tournament_context": {
-        "context_score": 0.5,
-        "draw_acceptability": 0.5,
-        "qualification_pressure": 0.5,
-        "third_place_buffer": 0.5,
-        "score": 0.5,
-        "notes": "Neutral tournament-context fallback"
-      },
-      "notes": "No optional adjustment supplied",
-      "probabilities": {
-        "group": 1.0,
-        "round32": 0.5953,
-        "round16": 0.22625,
-        "quarterfinal": 0.1001,
-        "semifinal": 0.04165,
-        "final": 0.0185,
-        "champion": 0.00715
-      },
-      "expected_stage_score": 1.6572500000000001
-    },
-    {
-      "team": "Czechia",
-      "confederation": "UEFA",
-      "elo": 1788.0,
-      "fifa_rank": 34,
-      "fifa_points": 1536.0,
-      "form": 0.64,
-      "attack": 1.0,
-      "defense": 1.0,
-      "strength": 0.43461736357295555,
-      "contributions": {
-        "elo": 0.10902325581395349,
-        "fifa": 0.016194107759002038,
-        "form": 0.096,
-        "player": 0.1034,
-        "style": 0.0,
-        "matchup": 0.0,
-        "venue": 0.05,
-        "context": 0.06
-      },
-      "player_profile": {
-        "star_power": 0.5,
-        "squad_depth": 0.5,
-        "availability": 0.5,
-        "goalkeeper": 0.5,
-        "injury_risk": 0.0,
-        "score": 0.47000000000000003,
-        "notes": "Neutral player profile fallback"
-      },
-      "venue_profile": {
-        "venue_score": 0.5,
-        "travel_adaptation": 0.5,
-        "home_crowd": 0.5,
-        "score": 0.5,
-        "notes": "Neutral venue fallback"
-      },
-      "tournament_context": {
-        "context_score": 0.5,
-        "draw_acceptability": 0.5,
-        "qualification_pressure": 0.5,
-        "third_place_buffer": 0.5,
-        "score": 0.5,
-        "notes": "Neutral tournament-context fallback"
-      },
-      "notes": "No optional adjustment supplied",
-      "probabilities": {
-        "group": 1.0,
-        "round32": 0.5998,
-        "round16": 0.2314,
-        "quarterfinal": 0.10105,
-        "semifinal": 0.0423,
-        "final": 0.0168,
-        "champion": 0.00715
-      },
-      "expected_stage_score": 1.669
-    },
-    {
-      "team": "Tunisia",
-      "confederation": "CAF",
-      "elo": 1768.0,
-      "fifa_rank": 37,
-      "fifa_points": 1516.0,
-      "form": 0.63,
-      "attack": 0.97,
-      "defense": 1.02,
-      "strength": 0.4434814441854293,
-      "contributions": {
-        "elo": 0.10158139534883721,
-        "fifa": 0.015216048836592055,
-        "form": 0.0945,
-        "player": 0.1034,
-        "style": 0.0,
-        "matchup": 0.0,
-        "venue": 0.05088000000000001,
-        "context": 0.077904
-      },
-      "player_profile": {
-        "star_power": 0.5,
-        "squad_depth": 0.5,
-        "availability": 0.5,
-        "goalkeeper": 0.5,
-        "injury_risk": 0.0,
-        "score": 0.47000000000000003,
-        "notes": "Neutral player profile fallback"
-      },
-      "venue_profile": {
-        "venue_score": 0.5,
-        "travel_adaptation": 0.54,
-        "home_crowd": 0.48,
-        "score": 0.5088,
-        "notes": "Neutral venue estimate from user odds screenshots"
-      },
-      "tournament_context": {
-        "context_score": 0.6,
-        "draw_acceptability": 0.74,
-        "qualification_pressure": 0.62,
-        "third_place_buffer": 0.7,
-        "score": 0.6492,
-        "notes": "Neutral group-stage context estimate"
-      },
-      "notes": "No optional adjustment supplied",
-      "probabilities": {
-        "group": 1.0,
-        "round32": 0.57635,
-        "round16": 0.23125,
-        "quarterfinal": 0.09745,
-        "semifinal": 0.0415,
-        "final": 0.0179,
-        "champion": 0.0069
-      },
-      "expected_stage_score": 1.6349999999999998
+      "expected_stage_score": 1.83105
     },
     {
       "team": "Qatar",
@@ -2233,29 +2009,29 @@
       "notes": "No optional adjustment supplied",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.5465,
-        "round16": 0.2079,
-        "quarterfinal": 0.08845,
-        "semifinal": 0.03505,
-        "final": 0.0146,
-        "champion": 0.00545
+        "round32": 0.5489,
+        "round16": 0.2122,
+        "quarterfinal": 0.09395,
+        "semifinal": 0.03755,
+        "final": 0.01485,
+        "champion": 0.0072
       },
-      "expected_stage_score": 1.4789999999999996
+      "expected_stage_score": 1.5299999999999998
     },
     {
-      "team": "Panama",
-      "confederation": "CONCACAF",
-      "elo": 1715.0,
-      "fifa_rank": 44,
-      "fifa_points": 1466.0,
-      "form": 0.67,
-      "attack": 0.97,
-      "defense": 0.96,
-      "strength": 0.40861563630976755,
+      "team": "Egypt",
+      "confederation": "CAF",
+      "elo": 1780.0,
+      "fifa_rank": 35,
+      "fifa_points": 1528.0,
+      "form": 0.72,
+      "attack": 1.03,
+      "defense": 0.99,
+      "strength": 0.4432831036831136,
       "contributions": {
-        "elo": 0.08186046511627906,
-        "fifa": 0.012855171193488453,
-        "form": 0.1005,
+        "elo": 0.10604651162790697,
+        "fifa": 0.015836592055206582,
+        "form": 0.108,
         "player": 0.1034,
         "style": 0.0,
         "matchup": 0.0,
@@ -2289,28 +2065,140 @@
       "notes": "No optional adjustment supplied",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.54675,
-        "round16": 0.1916,
-        "quarterfinal": 0.08145,
-        "semifinal": 0.03265,
-        "final": 0.01375,
-        "champion": 0.00545
+        "round32": 0.61965,
+        "round16": 0.2428,
+        "quarterfinal": 0.10995,
+        "semifinal": 0.04295,
+        "final": 0.0184,
+        "champion": 0.0072
       },
-      "expected_stage_score": 1.4118
+      "expected_stage_score": 1.7493
     },
     {
-      "team": "South Africa",
+      "team": "Tunisia",
       "confederation": "CAF",
-      "elo": 1720.0,
-      "fifa_rank": 43,
-      "fifa_points": 1470.0,
-      "form": 0.64,
-      "attack": 0.96,
-      "defense": 0.98,
-      "strength": 0.40623912894086567,
+      "elo": 1768.0,
+      "fifa_rank": 37,
+      "fifa_points": 1516.0,
+      "form": 0.63,
+      "attack": 0.97,
+      "defense": 1.02,
+      "strength": 0.4434814441854293,
       "contributions": {
-        "elo": 0.08372093023255814,
-        "fifa": 0.013118198708307528,
+        "elo": 0.10158139534883721,
+        "fifa": 0.015216048836592055,
+        "form": 0.0945,
+        "player": 0.1034,
+        "style": 0.0,
+        "matchup": 0.0,
+        "venue": 0.05088000000000001,
+        "context": 0.077904
+      },
+      "player_profile": {
+        "star_power": 0.5,
+        "squad_depth": 0.5,
+        "availability": 0.5,
+        "goalkeeper": 0.5,
+        "injury_risk": 0.0,
+        "score": 0.47000000000000003,
+        "notes": "Neutral player profile fallback"
+      },
+      "venue_profile": {
+        "venue_score": 0.5,
+        "travel_adaptation": 0.54,
+        "home_crowd": 0.48,
+        "score": 0.5088,
+        "notes": "Neutral venue estimate from user odds screenshots"
+      },
+      "tournament_context": {
+        "context_score": 0.6,
+        "draw_acceptability": 0.74,
+        "qualification_pressure": 0.62,
+        "third_place_buffer": 0.7,
+        "score": 0.6492,
+        "notes": "Neutral group-stage context estimate"
+      },
+      "notes": "No optional adjustment supplied",
+      "probabilities": {
+        "group": 1.0,
+        "round32": 0.5751,
+        "round16": 0.23435,
+        "quarterfinal": 0.1002,
+        "semifinal": 0.0413,
+        "final": 0.017,
+        "champion": 0.00645
+      },
+      "expected_stage_score": 1.63975
+    },
+    {
+      "team": "Nigeria",
+      "confederation": "CAF",
+      "elo": 1778.0,
+      "fifa_rank": 36,
+      "fifa_points": 1525.0,
+      "form": 0.69,
+      "attack": 1.04,
+      "defense": 0.97,
+      "strength": 0.43779951216902696,
+      "contributions": {
+        "elo": 0.10530232558139534,
+        "fifa": 0.015597186587631599,
+        "form": 0.1035,
+        "player": 0.1034,
+        "style": 0.0,
+        "matchup": 0.0,
+        "venue": 0.05,
+        "context": 0.06
+      },
+      "player_profile": {
+        "star_power": 0.5,
+        "squad_depth": 0.5,
+        "availability": 0.5,
+        "goalkeeper": 0.5,
+        "injury_risk": 0.0,
+        "score": 0.47000000000000003,
+        "notes": "Neutral player profile fallback"
+      },
+      "venue_profile": {
+        "venue_score": 0.5,
+        "travel_adaptation": 0.5,
+        "home_crowd": 0.5,
+        "score": 0.5,
+        "notes": "Neutral venue fallback"
+      },
+      "tournament_context": {
+        "context_score": 0.5,
+        "draw_acceptability": 0.5,
+        "qualification_pressure": 0.5,
+        "third_place_buffer": 0.5,
+        "score": 0.5,
+        "notes": "Neutral tournament-context fallback"
+      },
+      "notes": "No optional adjustment supplied",
+      "probabilities": {
+        "group": 1.0,
+        "round32": 0.5984,
+        "round16": 0.23635,
+        "quarterfinal": 0.10415,
+        "semifinal": 0.0424,
+        "final": 0.01725,
+        "champion": 0.00615
+      },
+      "expected_stage_score": 1.68245
+    },
+    {
+      "team": "Czechia",
+      "confederation": "UEFA",
+      "elo": 1788.0,
+      "fifa_rank": 34,
+      "fifa_points": 1536.0,
+      "form": 0.64,
+      "attack": 1.0,
+      "defense": 1.0,
+      "strength": 0.43461736357295555,
+      "contributions": {
+        "elo": 0.10902325581395349,
+        "fifa": 0.016194107759002038,
         "form": 0.096,
         "player": 0.1034,
         "style": 0.0,
@@ -2345,85 +2233,29 @@
       "notes": "No optional adjustment supplied",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.6025,
-        "round16": 0.2003,
-        "quarterfinal": 0.08345,
-        "semifinal": 0.0341,
-        "final": 0.01335,
-        "champion": 0.00525
+        "round32": 0.58475,
+        "round16": 0.2144,
+        "quarterfinal": 0.0936,
+        "semifinal": 0.0384,
+        "final": 0.01465,
+        "champion": 0.00605
       },
-      "expected_stage_score": 1.4933500000000002
+      "expected_stage_score": 1.5635499999999998
     },
     {
-      "team": "Chile",
-      "confederation": "CONMEBOL",
-      "elo": 1750.0,
-      "fifa_rank": 39,
-      "fifa_points": 1498.0,
-      "form": 0.55,
-      "attack": 0.96,
-      "defense": 0.99,
-      "strength": 0.40523749426474553,
-      "contributions": {
-        "elo": 0.09488372093023255,
-        "fifa": 0.014453773334512962,
-        "form": 0.0825,
-        "player": 0.1034,
-        "style": 0.0,
-        "matchup": 0.0,
-        "venue": 0.05,
-        "context": 0.06
-      },
-      "player_profile": {
-        "star_power": 0.5,
-        "squad_depth": 0.5,
-        "availability": 0.5,
-        "goalkeeper": 0.5,
-        "injury_risk": 0.0,
-        "score": 0.47000000000000003,
-        "notes": "Neutral player profile fallback"
-      },
-      "venue_profile": {
-        "venue_score": 0.5,
-        "travel_adaptation": 0.5,
-        "home_crowd": 0.5,
-        "score": 0.5,
-        "notes": "Neutral venue fallback"
-      },
-      "tournament_context": {
-        "context_score": 0.5,
-        "draw_acceptability": 0.5,
-        "qualification_pressure": 0.5,
-        "third_place_buffer": 0.5,
-        "score": 0.5,
-        "notes": "Neutral tournament-context fallback"
-      },
-      "notes": "No optional adjustment supplied",
-      "probabilities": {
-        "group": 1.0,
-        "round32": 0.53615,
-        "round16": 0.17805,
-        "quarterfinal": 0.077,
-        "semifinal": 0.0286,
-        "final": 0.0105,
-        "champion": 0.0051
-      },
-      "expected_stage_score": 1.3258500000000002
-    },
-    {
-      "team": "Algeria",
-      "confederation": "CAF",
-      "elo": 1760.0,
-      "fifa_rank": 38,
-      "fifa_points": 1508.0,
-      "form": 0.66,
+      "team": "Poland",
+      "confederation": "UEFA",
+      "elo": 1805.0,
+      "fifa_rank": 30,
+      "fifa_points": 1555.0,
+      "form": 0.61,
       "attack": 1.01,
-      "defense": 0.98,
-      "strength": 0.42586318429558734,
+      "defense": 1.0,
+      "strength": 0.4375659211693129,
       "contributions": {
-        "elo": 0.0986046511627907,
-        "fifa": 0.014858533132796602,
-        "form": 0.099,
+        "elo": 0.11534883720930232,
+        "fifa": 0.017317083960010613,
+        "form": 0.0915,
         "player": 0.1034,
         "style": 0.0,
         "matchup": 0.0,
@@ -2457,14 +2289,14 @@
       "notes": "No optional adjustment supplied",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.5675,
-        "round16": 0.20745,
-        "quarterfinal": 0.0866,
-        "semifinal": 0.034,
-        "final": 0.0126,
-        "champion": 0.00505
+        "round32": 0.5927,
+        "round16": 0.2267,
+        "quarterfinal": 0.0973,
+        "semifinal": 0.0403,
+        "final": 0.0155,
+        "champion": 0.00585
       },
-      "expected_stage_score": 1.47655
+      "expected_stage_score": 1.61765
     },
     {
       "team": "Saudi Arabia",
@@ -2513,29 +2345,29 @@
       "notes": "No optional adjustment supplied",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.6062,
-        "round16": 0.2067,
-        "quarterfinal": 0.08555,
-        "semifinal": 0.03275,
-        "final": 0.01315,
-        "champion": 0.00495
+        "round32": 0.60195,
+        "round16": 0.20285,
+        "quarterfinal": 0.0858,
+        "semifinal": 0.03505,
+        "final": 0.0131,
+        "champion": 0.00525
       },
-      "expected_stage_score": 1.5076500000000002
+      "expected_stage_score": 1.5075000000000003
     },
     {
-      "team": "Ghana",
+      "team": "South Africa",
       "confederation": "CAF",
-      "elo": 1695.0,
-      "fifa_rank": 47,
-      "fifa_points": 1448.0,
-      "form": 0.57,
+      "elo": 1720.0,
+      "fifa_rank": 43,
+      "fifa_points": 1470.0,
+      "form": 0.64,
       "attack": 0.96,
-      "defense": 0.95,
-      "strength": 0.38524296101672945,
+      "defense": 0.98,
+      "strength": 0.40623912894086567,
       "contributions": {
-        "elo": 0.07441860465116279,
-        "fifa": 0.011924356365566663,
-        "form": 0.08549999999999999,
+        "elo": 0.08372093023255814,
+        "fifa": 0.013118198708307528,
+        "form": 0.096,
         "player": 0.1034,
         "style": 0.0,
         "matchup": 0.0,
@@ -2569,29 +2401,29 @@
       "notes": "No optional adjustment supplied",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.5012,
-        "round16": 0.1442,
-        "quarterfinal": 0.0625,
-        "semifinal": 0.02405,
-        "final": 0.0106,
-        "champion": 0.00465
+        "round32": 0.5932,
+        "round16": 0.2024,
+        "quarterfinal": 0.0862,
+        "semifinal": 0.0346,
+        "final": 0.01215,
+        "champion": 0.0047
       },
-      "expected_stage_score": 1.15885
+      "expected_stage_score": 1.48865
     },
     {
-      "team": "Costa Rica",
+      "team": "Panama",
       "confederation": "CONCACAF",
-      "elo": 1708.0,
-      "fifa_rank": 45,
-      "fifa_points": 1460.0,
-      "form": 0.58,
-      "attack": 0.94,
-      "defense": 0.98,
-      "strength": 0.39220071353766955,
+      "elo": 1715.0,
+      "fifa_rank": 44,
+      "fifa_points": 1466.0,
+      "form": 0.67,
+      "attack": 0.97,
+      "defense": 0.96,
+      "strength": 0.40861563630976755,
       "contributions": {
-        "elo": 0.07925581395348837,
-        "fifa": 0.01254489958418119,
-        "form": 0.087,
+        "elo": 0.08186046511627906,
+        "fifa": 0.012855171193488453,
+        "form": 0.1005,
         "player": 0.1034,
         "style": 0.0,
         "matchup": 0.0,
@@ -2625,14 +2457,14 @@
       "notes": "No optional adjustment supplied",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.5511,
-        "round16": 0.1733,
-        "quarterfinal": 0.0739,
-        "semifinal": 0.031,
-        "final": 0.0112,
-        "champion": 0.00455
+        "round32": 0.5506,
+        "round16": 0.19295,
+        "quarterfinal": 0.0805,
+        "semifinal": 0.0316,
+        "final": 0.01175,
+        "champion": 0.00425
       },
-      "expected_stage_score": 1.3312499999999998
+      "expected_stage_score": 1.3929
     },
     {
       "team": "Peru",
@@ -2681,14 +2513,14 @@
       "notes": "No optional adjustment supplied",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.55245,
-        "round16": 0.18205,
-        "quarterfinal": 0.07705,
-        "semifinal": 0.0305,
-        "final": 0.01175,
-        "champion": 0.0042
+        "round32": 0.532,
+        "round16": 0.1747,
+        "quarterfinal": 0.0752,
+        "semifinal": 0.0288,
+        "final": 0.0111,
+        "champion": 0.0041
       },
-      "expected_stage_score": 1.35785
+      "expected_stage_score": 1.3064
     },
     {
       "team": "Jamaica",
@@ -2737,14 +2569,182 @@
       "notes": "No optional adjustment supplied",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.50825,
-        "round16": 0.15765,
-        "quarterfinal": 0.06775,
-        "semifinal": 0.02855,
-        "final": 0.0108,
-        "champion": 0.004
+        "round32": 0.5043,
+        "round16": 0.15345,
+        "quarterfinal": 0.06285,
+        "semifinal": 0.0256,
+        "final": 0.00995,
+        "champion": 0.0039
       },
-      "expected_stage_score": 1.223
+      "expected_stage_score": 1.1792
+    },
+    {
+      "team": "Costa Rica",
+      "confederation": "CONCACAF",
+      "elo": 1708.0,
+      "fifa_rank": 45,
+      "fifa_points": 1460.0,
+      "form": 0.58,
+      "attack": 0.94,
+      "defense": 0.98,
+      "strength": 0.39220071353766955,
+      "contributions": {
+        "elo": 0.07925581395348837,
+        "fifa": 0.01254489958418119,
+        "form": 0.087,
+        "player": 0.1034,
+        "style": 0.0,
+        "matchup": 0.0,
+        "venue": 0.05,
+        "context": 0.06
+      },
+      "player_profile": {
+        "star_power": 0.5,
+        "squad_depth": 0.5,
+        "availability": 0.5,
+        "goalkeeper": 0.5,
+        "injury_risk": 0.0,
+        "score": 0.47000000000000003,
+        "notes": "Neutral player profile fallback"
+      },
+      "venue_profile": {
+        "venue_score": 0.5,
+        "travel_adaptation": 0.5,
+        "home_crowd": 0.5,
+        "score": 0.5,
+        "notes": "Neutral venue fallback"
+      },
+      "tournament_context": {
+        "context_score": 0.5,
+        "draw_acceptability": 0.5,
+        "qualification_pressure": 0.5,
+        "third_place_buffer": 0.5,
+        "score": 0.5,
+        "notes": "Neutral tournament-context fallback"
+      },
+      "notes": "No optional adjustment supplied",
+      "probabilities": {
+        "group": 1.0,
+        "round32": 0.5501,
+        "round16": 0.1672,
+        "quarterfinal": 0.0698,
+        "semifinal": 0.02735,
+        "final": 0.0103,
+        "champion": 0.0038
+      },
+      "expected_stage_score": 1.2814
+    },
+    {
+      "team": "Chile",
+      "confederation": "CONMEBOL",
+      "elo": 1750.0,
+      "fifa_rank": 39,
+      "fifa_points": 1498.0,
+      "form": 0.55,
+      "attack": 0.96,
+      "defense": 0.99,
+      "strength": 0.40523749426474553,
+      "contributions": {
+        "elo": 0.09488372093023255,
+        "fifa": 0.014453773334512962,
+        "form": 0.0825,
+        "player": 0.1034,
+        "style": 0.0,
+        "matchup": 0.0,
+        "venue": 0.05,
+        "context": 0.06
+      },
+      "player_profile": {
+        "star_power": 0.5,
+        "squad_depth": 0.5,
+        "availability": 0.5,
+        "goalkeeper": 0.5,
+        "injury_risk": 0.0,
+        "score": 0.47000000000000003,
+        "notes": "Neutral player profile fallback"
+      },
+      "venue_profile": {
+        "venue_score": 0.5,
+        "travel_adaptation": 0.5,
+        "home_crowd": 0.5,
+        "score": 0.5,
+        "notes": "Neutral venue fallback"
+      },
+      "tournament_context": {
+        "context_score": 0.5,
+        "draw_acceptability": 0.5,
+        "qualification_pressure": 0.5,
+        "third_place_buffer": 0.5,
+        "score": 0.5,
+        "notes": "Neutral tournament-context fallback"
+      },
+      "notes": "No optional adjustment supplied",
+      "probabilities": {
+        "group": 1.0,
+        "round32": 0.5339,
+        "round16": 0.1766,
+        "quarterfinal": 0.07825,
+        "semifinal": 0.02905,
+        "final": 0.0114,
+        "champion": 0.0037
+      },
+      "expected_stage_score": 1.32095
+    },
+    {
+      "team": "Ghana",
+      "confederation": "CAF",
+      "elo": 1695.0,
+      "fifa_rank": 47,
+      "fifa_points": 1448.0,
+      "form": 0.57,
+      "attack": 0.96,
+      "defense": 0.95,
+      "strength": 0.38524296101672945,
+      "contributions": {
+        "elo": 0.07441860465116279,
+        "fifa": 0.011924356365566663,
+        "form": 0.08549999999999999,
+        "player": 0.1034,
+        "style": 0.0,
+        "matchup": 0.0,
+        "venue": 0.05,
+        "context": 0.06
+      },
+      "player_profile": {
+        "star_power": 0.5,
+        "squad_depth": 0.5,
+        "availability": 0.5,
+        "goalkeeper": 0.5,
+        "injury_risk": 0.0,
+        "score": 0.47000000000000003,
+        "notes": "Neutral player profile fallback"
+      },
+      "venue_profile": {
+        "venue_score": 0.5,
+        "travel_adaptation": 0.5,
+        "home_crowd": 0.5,
+        "score": 0.5,
+        "notes": "Neutral venue fallback"
+      },
+      "tournament_context": {
+        "context_score": 0.5,
+        "draw_acceptability": 0.5,
+        "qualification_pressure": 0.5,
+        "third_place_buffer": 0.5,
+        "score": 0.5,
+        "notes": "Neutral tournament-context fallback"
+      },
+      "notes": "No optional adjustment supplied",
+      "probabilities": {
+        "group": 1.0,
+        "round32": 0.5056,
+        "round16": 0.1444,
+        "quarterfinal": 0.05945,
+        "semifinal": 0.0232,
+        "final": 0.0094,
+        "champion": 0.00355
+      },
+      "expected_stage_score": 1.1374
     },
     {
       "team": "New Zealand",
@@ -2793,14 +2793,14 @@
       "notes": "No optional adjustment supplied",
       "probabilities": {
         "group": 1.0,
-        "round32": 0.56205,
-        "round16": 0.15865,
-        "quarterfinal": 0.06685,
-        "semifinal": 0.0246,
-        "final": 0.00905,
-        "champion": 0.00325
+        "round32": 0.56035,
+        "round16": 0.1547,
+        "quarterfinal": 0.0618,
+        "semifinal": 0.0245,
+        "final": 0.0091,
+        "champion": 0.00335
       },
-      "expected_stage_score": 1.2463000000000002
+      "expected_stage_score": 1.2221000000000002
     }
   ],
   "all_teams": [
@@ -2813,40 +2813,40 @@
       "form": 0.66,
       "attack": 1.01,
       "defense": 0.98,
-      "strength": 0.42586318429558734,
+      "strength": 0.4777991842955873,
       "contributions": {
         "elo": 0.0986046511627907,
         "fifa": 0.014858533132796602,
         "form": 0.099,
-        "player": 0.1034,
+        "player": 0.13754400000000003,
         "style": 0.0,
         "matchup": 0.0,
-        "venue": 0.05,
-        "context": 0.06
+        "venue": 0.04888,
+        "context": 0.078912
       },
       "player_profile": {
-        "star_power": 0.5,
-        "squad_depth": 0.5,
-        "availability": 0.5,
-        "goalkeeper": 0.5,
-        "injury_risk": 0.0,
-        "score": 0.47000000000000003,
-        "notes": "Neutral player profile fallback"
+        "star_power": 0.68,
+        "squad_depth": 0.64,
+        "availability": 0.76,
+        "goalkeeper": 0.66,
+        "injury_risk": 0.12,
+        "score": 0.6252000000000001,
+        "notes": "Transparent estimate until lineup data is imported"
       },
       "venue_profile": {
-        "venue_score": 0.5,
-        "travel_adaptation": 0.5,
-        "home_crowd": 0.5,
-        "score": 0.5,
-        "notes": "Neutral venue fallback"
+        "venue_score": 0.48,
+        "travel_adaptation": 0.52,
+        "home_crowd": 0.46,
+        "score": 0.48879999999999996,
+        "notes": "Neutral venue estimate from user odds screenshots"
       },
       "tournament_context": {
-        "context_score": 0.5,
-        "draw_acceptability": 0.5,
-        "qualification_pressure": 0.5,
-        "third_place_buffer": 0.5,
-        "score": 0.5,
-        "notes": "Neutral tournament-context fallback"
+        "context_score": 0.62,
+        "draw_acceptability": 0.72,
+        "qualification_pressure": 0.64,
+        "third_place_buffer": 0.7,
+        "score": 0.6576,
+        "notes": "Neutral group-stage context estimate"
       },
       "notes": "No optional adjustment supplied"
     },
@@ -2859,7 +2859,7 @@
       "form": 0.86,
       "attack": 1.22,
       "defense": 1.18,
-      "strength": 0.704868,
+      "strength": 0.7386199999999999,
       "contributions": {
         "elo": 0.24,
         "fifa": 0.03,
@@ -2867,8 +2867,8 @@
         "player": 0.192368,
         "style": 0.0021000000000000003,
         "matchup": 0.0014000000000000002,
-        "venue": 0.05,
-        "context": 0.06
+        "venue": 0.055720000000000006,
+        "context": 0.08803199999999999
       },
       "player_profile": {
         "star_power": 0.94,
@@ -2880,19 +2880,19 @@
         "notes": "Elite star power and continuity"
       },
       "venue_profile": {
-        "venue_score": 0.5,
-        "travel_adaptation": 0.5,
-        "home_crowd": 0.5,
-        "score": 0.5,
-        "notes": "Neutral venue fallback"
+        "venue_score": 0.56,
+        "travel_adaptation": 0.58,
+        "home_crowd": 0.52,
+        "score": 0.5572,
+        "notes": "Neutral venue estimate from user odds screenshots"
       },
       "tournament_context": {
-        "context_score": 0.5,
-        "draw_acceptability": 0.5,
-        "qualification_pressure": 0.5,
-        "third_place_buffer": 0.5,
-        "score": 0.5,
-        "notes": "Neutral tournament-context fallback"
+        "context_score": 0.78,
+        "draw_acceptability": 0.58,
+        "qualification_pressure": 0.82,
+        "third_place_buffer": 0.7,
+        "score": 0.7335999999999999,
+        "notes": "Neutral group-stage context estimate"
       },
       "notes": "Elite squad continuity and market respect"
     },
@@ -2951,40 +2951,40 @@
       "form": 0.75,
       "attack": 1.04,
       "defense": 1.05,
-      "strength": 0.48575701058990306,
+      "strength": 0.559321010589903,
       "contributions": {
         "elo": 0.13953488372093023,
         "fifa": 0.02032212686897284,
         "form": 0.11249999999999999,
-        "player": 0.1034,
+        "player": 0.148192,
         "style": 0.0,
         "matchup": 0.0,
-        "venue": 0.05,
-        "context": 0.06
+        "venue": 0.05530000000000001,
+        "context": 0.08347199999999998
       },
       "player_profile": {
-        "star_power": 0.5,
-        "squad_depth": 0.5,
-        "availability": 0.5,
-        "goalkeeper": 0.5,
-        "injury_risk": 0.0,
-        "score": 0.47000000000000003,
-        "notes": "Neutral player profile fallback"
+        "star_power": 0.72,
+        "squad_depth": 0.7,
+        "availability": 0.8,
+        "goalkeeper": 0.72,
+        "injury_risk": 0.1,
+        "score": 0.6736,
+        "notes": "Transparent estimate until lineup data is imported"
       },
       "venue_profile": {
-        "venue_score": 0.5,
-        "travel_adaptation": 0.5,
-        "home_crowd": 0.5,
-        "score": 0.5,
-        "notes": "Neutral venue fallback"
+        "venue_score": 0.55,
+        "travel_adaptation": 0.58,
+        "home_crowd": 0.52,
+        "score": 0.553,
+        "notes": "Neutral venue estimate from user odds screenshots"
       },
       "tournament_context": {
-        "context_score": 0.5,
-        "draw_acceptability": 0.5,
-        "qualification_pressure": 0.5,
-        "third_place_buffer": 0.5,
-        "score": 0.5,
-        "notes": "Neutral tournament-context fallback"
+        "context_score": 0.7,
+        "draw_acceptability": 0.66,
+        "qualification_pressure": 0.72,
+        "third_place_buffer": 0.7,
+        "score": 0.6955999999999999,
+        "notes": "Neutral group-stage context estimate"
       },
       "notes": "No optional adjustment supplied"
     },
@@ -3687,7 +3687,7 @@
       "form": 0.84,
       "attack": 1.21,
       "defense": 1.17,
-      "strength": 0.6990475141442177,
+      "strength": 0.7317915141442177,
       "contributions": {
         "elo": 0.23441860465116277,
         "fifa": 0.029240909493054936,
@@ -3695,8 +3695,8 @@
         "player": 0.195888,
         "style": 0.0021000000000000003,
         "matchup": 0.0014000000000000002,
-        "venue": 0.05,
-        "context": 0.06
+        "venue": 0.055720000000000006,
+        "context": 0.08702399999999999
       },
       "player_profile": {
         "star_power": 0.96,
@@ -3708,19 +3708,19 @@
         "notes": "Elite depth across the squad"
       },
       "venue_profile": {
-        "venue_score": 0.5,
-        "travel_adaptation": 0.5,
-        "home_crowd": 0.5,
-        "score": 0.5,
-        "notes": "Neutral venue fallback"
+        "venue_score": 0.56,
+        "travel_adaptation": 0.58,
+        "home_crowd": 0.52,
+        "score": 0.5572,
+        "notes": "Neutral venue estimate from user odds screenshots"
       },
       "tournament_context": {
-        "context_score": 0.5,
-        "draw_acceptability": 0.5,
-        "qualification_pressure": 0.5,
-        "third_place_buffer": 0.5,
-        "score": 0.5,
-        "notes": "Neutral tournament-context fallback"
+        "context_score": 0.76,
+        "draw_acceptability": 0.6,
+        "qualification_pressure": 0.8,
+        "third_place_buffer": 0.7,
+        "score": 0.7252,
+        "notes": "Neutral group-stage context estimate"
       },
       "notes": "Elite depth and strong market prior"
     },
@@ -3909,6 +3909,52 @@
       "notes": "No optional adjustment supplied"
     },
     {
+      "team": "Iraq",
+      "confederation": "AFC",
+      "elo": 1648.0,
+      "fifa_rank": 58,
+      "fifa_points": 1438.0,
+      "form": 0.64,
+      "attack": 0.95,
+      "defense": 0.93,
+      "strength": 0.3980444358669956,
+      "contributions": {
+        "elo": 0.05693023255813953,
+        "fifa": 0.009834203308856057,
+        "form": 0.096,
+        "player": 0.11404800000000002,
+        "style": 0.0,
+        "matchup": 0.0,
+        "venue": 0.046880000000000005,
+        "context": 0.07435199999999999
+      },
+      "player_profile": {
+        "star_power": 0.52,
+        "squad_depth": 0.5,
+        "availability": 0.74,
+        "goalkeeper": 0.58,
+        "injury_risk": 0.14,
+        "score": 0.5184000000000001,
+        "notes": "Transparent estimate until lineup data is imported"
+      },
+      "venue_profile": {
+        "venue_score": 0.46,
+        "travel_adaptation": 0.5,
+        "home_crowd": 0.44,
+        "score": 0.4688,
+        "notes": "Neutral venue estimate from user odds screenshots"
+      },
+      "tournament_context": {
+        "context_score": 0.54,
+        "draw_acceptability": 0.78,
+        "qualification_pressure": 0.56,
+        "third_place_buffer": 0.7,
+        "score": 0.6195999999999999,
+        "notes": "Neutral group-stage context estimate"
+      },
+      "notes": "No optional adjustment supplied"
+    },
+    {
       "team": "Italy",
       "confederation": "UEFA",
       "elo": 1975.0,
@@ -4042,6 +4088,52 @@
         "qualification_pressure": 0.7,
         "third_place_buffer": 0.7,
         "score": 0.6872,
+        "notes": "Neutral group-stage context estimate"
+      },
+      "notes": "No optional adjustment supplied"
+    },
+    {
+      "team": "Jordan",
+      "confederation": "AFC",
+      "elo": 1628.0,
+      "fifa_rank": 68,
+      "fifa_points": 1402.0,
+      "form": 0.62,
+      "attack": 0.93,
+      "defense": 0.91,
+      "strength": 0.379814788442665,
+      "contributions": {
+        "elo": 0.04948837209302326,
+        "fifa": 0.007298416349641688,
+        "form": 0.093,
+        "player": 0.10991200000000001,
+        "style": 0.0,
+        "matchup": 0.0,
+        "venue": 0.0473,
+        "context": 0.07281599999999999
+      },
+      "player_profile": {
+        "star_power": 0.5,
+        "squad_depth": 0.48,
+        "availability": 0.72,
+        "goalkeeper": 0.56,
+        "injury_risk": 0.14,
+        "score": 0.49960000000000004,
+        "notes": "Transparent estimate until lineup data is imported"
+      },
+      "venue_profile": {
+        "venue_score": 0.47,
+        "travel_adaptation": 0.5,
+        "home_crowd": 0.44,
+        "score": 0.473,
+        "notes": "Neutral venue estimate from user odds screenshots"
+      },
+      "tournament_context": {
+        "context_score": 0.52,
+        "draw_acceptability": 0.78,
+        "qualification_pressure": 0.54,
+        "third_place_buffer": 0.7,
+        "score": 0.6068,
         "notes": "Neutral group-stage context estimate"
       },
       "notes": "No optional adjustment supplied"
@@ -4285,40 +4377,40 @@
       "form": 0.78,
       "attack": 1.06,
       "defense": 0.97,
-      "strength": 0.4599588370241282,
+      "strength": 0.5334148370241282,
       "contributions": {
         "elo": 0.11274418604651162,
         "fifa": 0.01681465097761656,
         "form": 0.11699999999999999,
-        "player": 0.1034,
+        "player": 0.14766400000000002,
         "style": 0.0,
         "matchup": 0.0,
-        "venue": 0.05,
-        "context": 0.06
+        "venue": 0.055720000000000006,
+        "context": 0.08347199999999998
       },
       "player_profile": {
-        "star_power": 0.5,
-        "squad_depth": 0.5,
-        "availability": 0.5,
-        "goalkeeper": 0.5,
-        "injury_risk": 0.0,
-        "score": 0.47000000000000003,
-        "notes": "Neutral player profile fallback"
+        "star_power": 0.78,
+        "squad_depth": 0.66,
+        "availability": 0.78,
+        "goalkeeper": 0.68,
+        "injury_risk": 0.12,
+        "score": 0.6712000000000001,
+        "notes": "Transparent estimate until lineup data is imported"
       },
       "venue_profile": {
-        "venue_score": 0.5,
-        "travel_adaptation": 0.5,
-        "home_crowd": 0.5,
-        "score": 0.5,
-        "notes": "Neutral venue fallback"
+        "venue_score": 0.56,
+        "travel_adaptation": 0.58,
+        "home_crowd": 0.52,
+        "score": 0.5572,
+        "notes": "Neutral venue estimate from user odds screenshots"
       },
       "tournament_context": {
-        "context_score": 0.5,
-        "draw_acceptability": 0.5,
-        "qualification_pressure": 0.5,
-        "third_place_buffer": 0.5,
-        "score": 0.5,
-        "notes": "Neutral tournament-context fallback"
+        "context_score": 0.7,
+        "draw_acceptability": 0.66,
+        "qualification_pressure": 0.72,
+        "third_place_buffer": 0.7,
+        "score": 0.6955999999999999,
+        "notes": "Neutral group-stage context estimate"
       },
       "notes": "No optional adjustment supplied"
     },
@@ -4699,40 +4791,40 @@
       "form": 0.73,
       "attack": 1.05,
       "defense": 1.06,
-      "strength": 0.48611489252698914,
+      "strength": 0.5553508925269892,
       "contributions": {
         "elo": 0.14251162790697675,
         "fifa": 0.020703264620012388,
         "form": 0.1095,
-        "player": 0.1034,
+        "player": 0.14982000000000004,
         "style": 0.0,
         "matchup": 0.0,
-        "venue": 0.05,
-        "context": 0.06
+        "venue": 0.05088000000000001,
+        "context": 0.081936
       },
       "player_profile": {
-        "star_power": 0.5,
-        "squad_depth": 0.5,
-        "availability": 0.5,
-        "goalkeeper": 0.5,
-        "injury_risk": 0.0,
-        "score": 0.47000000000000003,
-        "notes": "Neutral player profile fallback"
+        "star_power": 0.73,
+        "squad_depth": 0.7,
+        "availability": 0.8,
+        "goalkeeper": 0.76,
+        "injury_risk": 0.11,
+        "score": 0.6810000000000002,
+        "notes": "Transparent estimate until lineup data is imported"
       },
       "venue_profile": {
         "venue_score": 0.5,
-        "travel_adaptation": 0.5,
-        "home_crowd": 0.5,
-        "score": 0.5,
-        "notes": "Neutral venue fallback"
+        "travel_adaptation": 0.54,
+        "home_crowd": 0.48,
+        "score": 0.5088,
+        "notes": "Neutral venue estimate from user odds screenshots"
       },
       "tournament_context": {
-        "context_score": 0.5,
-        "draw_acceptability": 0.5,
-        "qualification_pressure": 0.5,
-        "third_place_buffer": 0.5,
-        "score": 0.5,
-        "notes": "Neutral tournament-context fallback"
+        "context_score": 0.68,
+        "draw_acceptability": 0.66,
+        "qualification_pressure": 0.7,
+        "third_place_buffer": 0.7,
+        "score": 0.6828,
+        "notes": "Neutral group-stage context estimate"
       },
       "notes": "No optional adjustment supplied"
     },
@@ -5259,65 +5351,65 @@
     {
       "team_a": "Argentina",
       "team_b": "France",
-      "win": 0.3752586454469002,
-      "draw": 0.25816316304236503,
-      "loss": 0.36657819151073473
+      "win": 0.37562386119340696,
+      "draw": 0.2581602011117653,
+      "loss": 0.3662159376948277
     },
     {
       "team_a": "Argentina",
       "team_b": "Brazil",
-      "win": 0.3978136252810591,
-      "draw": 0.25754362290099575,
-      "loss": 0.34464275181794507
+      "win": 0.41031461527145713,
+      "draw": 0.256829000371884,
+      "loss": 0.332856384356659
     },
     {
       "team_a": "Argentina",
       "team_b": "Spain",
-      "win": 0.39433351399473804,
-      "draw": 0.2576962014598275,
-      "loss": 0.34797028454543455
-    },
-    {
-      "team_a": "Argentina",
-      "team_b": "Portugal",
-      "win": 0.40225797875203856,
-      "draw": 0.25731921602439556,
-      "loss": 0.3404228052235659
+      "win": 0.40680454369307306,
+      "draw": 0.2570556961422374,
+      "loss": 0.3361397601646897
     },
     {
       "team_a": "Argentina",
       "team_b": "England",
-      "win": 0.4007028373628919,
-      "draw": 0.25740148962768983,
-      "loss": 0.34189567300941826
+      "win": 0.4132279979599864,
+      "draw": 0.2566255894274963,
+      "loss": 0.3301464126125174
+    },
+    {
+      "team_a": "Argentina",
+      "team_b": "Portugal",
+      "win": 0.41479588594003775,
+      "draw": 0.2565104301446926,
+      "loss": 0.32869368391526976
     },
     {
       "team_a": "France",
       "team_b": "Brazil",
-      "win": 0.3933851951140598,
-      "draw": 0.2577342286713471,
-      "loss": 0.3488805762145932
+      "win": 0.40547414286158256,
+      "draw": 0.2571363382057736,
+      "loss": 0.3373895189326438
     },
     {
       "team_a": "France",
       "team_b": "Spain",
-      "win": 0.38991648775512405,
-      "draw": 0.2578602851812802,
-      "loss": 0.3522232270635957
-    },
-    {
-      "team_a": "France",
-      "team_b": "Portugal",
-      "win": 0.3978154580047806,
-      "draw": 0.2575435371744133,
-      "loss": 0.3446410048208062
+      "win": 0.401975281982715,
+      "draw": 0.2573344711258214,
+      "loss": 0.3406902468914637
     },
     {
       "team_a": "France",
       "team_b": "England",
-      "win": 0.39626518683099476,
-      "draw": 0.25761403343647044,
-      "loss": 0.3461207797325349
+      "win": 0.40837849119117825,
+      "draw": 0.2569565369487776,
+      "loss": 0.3346649718600442
+    },
+    {
+      "team_a": "France",
+      "team_b": "Portugal",
+      "win": 0.4099416186392204,
+      "draw": 0.25685404627125885,
+      "loss": 0.3332043350895208
     },
     {
       "team_a": "Brazil",
@@ -5328,24 +5420,17 @@
     },
     {
       "team_a": "Brazil",
-      "team_b": "Portugal",
-      "win": 0.37526044572842726,
-      "draw": 0.25816314902396725,
-      "loss": 0.3665764052476055
-    },
-    {
-      "team_a": "Brazil",
       "team_b": "England",
       "win": 0.37373777982893325,
       "draw": 0.258172942063851,
       "loss": 0.3680892781072158
     },
     {
-      "team_a": "Spain",
+      "team_a": "Brazil",
       "team_b": "Portugal",
-      "win": 0.37868832235193656,
-      "draw": 0.2581260263197794,
-      "loss": 0.363185651328284
+      "win": 0.37526044572842726,
+      "draw": 0.25816314902396725,
+      "loss": 0.3665764052476055
     },
     {
       "team_a": "Spain",
@@ -5355,11 +5440,18 @@
       "loss": 0.3646937145715868
     },
     {
-      "team_a": "Portugal",
-      "team_b": "England",
-      "win": 0.36939315444863263,
-      "draw": 0.2581780494581985,
-      "loss": 0.3724287960931688
+      "team_a": "Spain",
+      "team_b": "Portugal",
+      "win": 0.37868832235193656,
+      "draw": 0.2581260263197794,
+      "loss": 0.363185651328284
+    },
+    {
+      "team_a": "England",
+      "team_b": "Portugal",
+      "win": 0.37242879609316887,
+      "draw": 0.25817804945819856,
+      "loss": 0.36939315444863274
     }
   ],
   "featured_matches": [
@@ -7448,6 +7540,840 @@
       "group_stage_value": {
         "home_win_value": 0.64,
         "draw_acceptability": 0.73,
+        "home_loss_risk": 0.30000000000000004,
+        "format_note": "2026 group stage: top two teams plus eight best third-place teams advance to the Round of 32."
+      },
+      "home_notes": "No optional adjustment supplied",
+      "away_notes": "No optional adjustment supplied"
+    },
+    {
+      "home": "France",
+      "away": "Senegal",
+      "label": "France vs Senegal",
+      "date": "2026-06-16",
+      "context": "World Cup group-stage match",
+      "probabilities": {
+        "win": 0.46797845231814167,
+        "draw": 0.25034600470089363,
+        "loss": 0.2816755429809647
+      },
+      "expected_goals": {
+        "home": 1.56994431878355,
+        "away": 1.1608691965662448
+      },
+      "prematch": {
+        "active": false,
+        "probabilities": {
+          "win": 0.46797845231814167,
+          "draw": 0.25034600470089363,
+          "loss": 0.2816755429809647
+        },
+        "expected_goals": {
+          "home": 1.56994431878355,
+          "away": 1.1608691965662448
+        },
+        "home": {
+          "active": false,
+          "scores": {
+            "training_readiness_score": 0.5,
+            "key_player_status_score": 0.5,
+            "lineup_confidence_score": 0.5,
+            "tactical_cohesion_score": 0.5,
+            "coach_signal_score": 0.5,
+            "travel_acclimation_score": 0.5,
+            "disruption_risk_score": 0.2,
+            "upside_trigger_score": 0.5
+          },
+          "source_confidence": 0.4,
+          "source_tier": "low_confidence",
+          "last_updated_at": "2026-06-16T12:00:00Z",
+          "source_urls": [
+            "manual:neutral-placeholder"
+          ],
+          "notes": "Neutral placeholder; not used in model until reliable pre-match sources are imported",
+          "attack_xg_factor": 1.0,
+          "defensive_error_risk_delta": 0.0,
+          "score_variance_delta": 0.0,
+          "upside_delta": 0.0
+        },
+        "away": {
+          "active": false,
+          "scores": {
+            "training_readiness_score": 0.5,
+            "key_player_status_score": 0.5,
+            "lineup_confidence_score": 0.5,
+            "tactical_cohesion_score": 0.5,
+            "coach_signal_score": 0.5,
+            "travel_acclimation_score": 0.5,
+            "disruption_risk_score": 0.2,
+            "upside_trigger_score": 0.5
+          },
+          "source_confidence": 0.4,
+          "source_tier": "low_confidence",
+          "last_updated_at": "2026-06-16T12:00:00Z",
+          "source_urls": [
+            "manual:neutral-placeholder"
+          ],
+          "notes": "Neutral placeholder; not used in model until reliable pre-match sources are imported",
+          "attack_xg_factor": 1.0,
+          "defensive_error_risk_delta": 0.0,
+          "score_variance_delta": 0.0,
+          "upside_delta": 0.0
+        },
+        "effect": {
+          "home_win_shift": 0.0,
+          "draw_shift": 0.0,
+          "away_win_shift": 0.0,
+          "max_module_shift": 0.05,
+          "single_source_cap": 0.015
+        },
+        "risk_metrics": {
+          "score_variance_delta": 0.0,
+          "favorite": "home",
+          "base": {
+            "home_win_by_2_plus": 0.23940800148374225,
+            "home_win_by_3_plus": 0.09773929442202377,
+            "away_win_by_2_plus": 0.11266292744307407,
+            "away_win_by_3_plus": 0.03520390618236343,
+            "underdog_unbeaten_probability": 0.5320215476818584,
+            "upset_win_probability": 0.2816755429809647
+          },
+          "adjusted": {
+            "home_win_by_2_plus": 0.23940800148374225,
+            "home_win_by_3_plus": 0.09773929442202377,
+            "away_win_by_2_plus": 0.11266292744307407,
+            "away_win_by_3_plus": 0.03520390618236343,
+            "underdog_unbeaten_probability": 0.5320215476818584,
+            "upset_win_probability": 0.2816755429809647
+          },
+          "blowout_probability_shift_2_plus": 0.0,
+          "blowout_probability_shift_3_plus": 0.0,
+          "upset_probability_shift": 0.0,
+          "underdog_unbeaten_shift": 0.0
+        }
+      },
+      "goal_risk": {
+        "match_type": "防守胶着局",
+        "favorite": "France",
+        "underdog": "Senegal",
+        "favorite_side": "home",
+        "over_tendency": "中",
+        "under_tendency": "中",
+        "favorite_firepower_ceiling": "中",
+        "underdog_collapse_risk": "低",
+        "match_acceleration_risk": "中",
+        "market_over_signal": "弱",
+        "total_goals_3_plus": 0.5138933199049578,
+        "total_goals_4_plus": 0.2927124103914484,
+        "total_goals_5_plus": 0.14171145613223585,
+        "favorite_goals_3_plus": 0.2089043194972438,
+        "favorite_goals_4_plus": 0.07472569244671078,
+        "ban_under_bet": false,
+        "model_underestimates_blowout": false,
+        "score_band_focus": "正常比分",
+        "drivers": [
+          "大球赔率被压低"
+        ],
+        "scores": {
+          "over": 0.6408573496409667,
+          "under": 0.5817885441965225,
+          "firepower": 0.45421490100740103,
+          "collapse": 0.24057929233087025,
+          "acceleration": 0.40550382825601106,
+          "market": 0.12
+        }
+      },
+      "market": {
+        "weight": 0.45,
+        "source_note": "User screenshot 2026-06-16",
+        "moneyline": {
+          "home_win_odds": 1.46,
+          "draw_odds": 4.45,
+          "away_win_odds": 6.9,
+          "probabilities": {
+            "win": 0.6494838818851003,
+            "draw": 0.21308909383196548,
+            "loss": 0.13742702428293427
+          }
+        },
+        "external_forecast": null,
+        "benchmark_probabilities": {
+          "win": 0.6494838818851003,
+          "draw": 0.21308909383196548,
+          "loss": 0.13742702428293427
+        },
+        "disagreement": {
+          "summary": "模型比市场/外部基准更保守，主队优势主要来自盘口和外部模型。",
+          "home_gap": -0.18150542956695864,
+          "stance": "model_conservative"
+        },
+        "total_goals": {
+          "line": 2.5,
+          "over": 0.5245478036175711,
+          "under": 0.47545219638242886,
+          "expected_total_goals": 2.5368217054263567
+        },
+        "handicap": {
+          "home_line": -1.0,
+          "home_cover": 0.5335051546391754,
+          "away_cover": 0.46649484536082475
+        },
+        "calibrated_probabilities": {
+          "win": 0.5496558956232731,
+          "draw": 0.23358039480987597,
+          "loss": 0.216763709566851
+        },
+        "calibrated_expected_goals": {
+          "home": 1.5197576794632255,
+          "away": 1.1237595214210223
+        },
+        "market_effect": {
+          "home_win_shift": 0.08167744330513144,
+          "draw_shift": -0.016765609891017663,
+          "away_win_shift": -0.06491183341411369,
+          "market_weight": 0.45
+        }
+      },
+      "strength_delta": 0.1764406216172285,
+      "contribution_delta": {
+        "elo": 0.09190697674418602,
+        "fifa": 0.008537644873042548,
+        "form": 0.0165,
+        "player": 0.04606799999999997,
+        "style": 0.0021000000000000003,
+        "matchup": 0.0014000000000000002,
+        "venue": 0.004839999999999997,
+        "context": 0.005087999999999995
+      },
+      "group_stage_value": {
+        "home_win_value": 0.8,
+        "draw_acceptability": 0.63,
+        "home_loss_risk": 0.30000000000000004,
+        "format_note": "2026 group stage: top two teams plus eight best third-place teams advance to the Round of 32."
+      },
+      "home_notes": "Elite depth and strong market prior",
+      "away_notes": "No optional adjustment supplied"
+    },
+    {
+      "home": "Iraq",
+      "away": "Norway",
+      "label": "Iraq vs Norway",
+      "date": "2026-06-16",
+      "context": "World Cup group-stage match",
+      "probabilities": {
+        "win": 0.3074474335733461,
+        "draw": 0.254325128634383,
+        "loss": 0.43822743779227097
+      },
+      "expected_goals": {
+        "home": 1.214812519294931,
+        "away": 1.5002314933811902
+      },
+      "prematch": {
+        "active": false,
+        "probabilities": {
+          "win": 0.3074474335733461,
+          "draw": 0.254325128634383,
+          "loss": 0.43822743779227097
+        },
+        "expected_goals": {
+          "home": 1.214812519294931,
+          "away": 1.5002314933811902
+        },
+        "home": {
+          "active": false,
+          "scores": {
+            "training_readiness_score": 0.5,
+            "key_player_status_score": 0.5,
+            "lineup_confidence_score": 0.5,
+            "tactical_cohesion_score": 0.5,
+            "coach_signal_score": 0.5,
+            "travel_acclimation_score": 0.5,
+            "disruption_risk_score": 0.2,
+            "upside_trigger_score": 0.5
+          },
+          "source_confidence": 0.4,
+          "source_tier": "low_confidence",
+          "last_updated_at": "2026-06-16T12:00:00Z",
+          "source_urls": [
+            "manual:neutral-placeholder"
+          ],
+          "notes": "Neutral placeholder; not used in model until reliable pre-match sources are imported",
+          "attack_xg_factor": 1.0,
+          "defensive_error_risk_delta": 0.0,
+          "score_variance_delta": 0.0,
+          "upside_delta": 0.0
+        },
+        "away": {
+          "active": false,
+          "scores": {
+            "training_readiness_score": 0.5,
+            "key_player_status_score": 0.5,
+            "lineup_confidence_score": 0.5,
+            "tactical_cohesion_score": 0.5,
+            "coach_signal_score": 0.5,
+            "travel_acclimation_score": 0.5,
+            "disruption_risk_score": 0.2,
+            "upside_trigger_score": 0.5
+          },
+          "source_confidence": 0.4,
+          "source_tier": "low_confidence",
+          "last_updated_at": "2026-06-16T12:00:00Z",
+          "source_urls": [
+            "manual:neutral-placeholder"
+          ],
+          "notes": "Neutral placeholder; not used in model until reliable pre-match sources are imported",
+          "attack_xg_factor": 1.0,
+          "defensive_error_risk_delta": 0.0,
+          "score_variance_delta": 0.0,
+          "upside_delta": 0.0
+        },
+        "effect": {
+          "home_win_shift": 0.0,
+          "draw_shift": 0.0,
+          "away_win_shift": 0.0,
+          "max_module_shift": 0.05,
+          "single_source_cap": 0.015
+        },
+        "risk_metrics": {
+          "score_variance_delta": 0.0,
+          "favorite": "away",
+          "base": {
+            "home_win_by_2_plus": 0.12776993113210292,
+            "home_win_by_3_plus": 0.041596664535534386,
+            "away_win_by_2_plus": 0.2163348876496431,
+            "away_win_by_3_plus": 0.08491212411767408,
+            "underdog_unbeaten_probability": 0.5617725622077286,
+            "upset_win_probability": 0.3074474335733461
+          },
+          "adjusted": {
+            "home_win_by_2_plus": 0.12776993113210292,
+            "home_win_by_3_plus": 0.041596664535534386,
+            "away_win_by_2_plus": 0.2163348876496431,
+            "away_win_by_3_plus": 0.08491212411767408,
+            "underdog_unbeaten_probability": 0.5617725622077286,
+            "upset_win_probability": 0.3074474335733461
+          },
+          "blowout_probability_shift_2_plus": 0.0,
+          "blowout_probability_shift_3_plus": 0.0,
+          "upset_probability_shift": 0.0,
+          "underdog_unbeaten_shift": 0.0
+        }
+      },
+      "goal_risk": {
+        "match_type": "防守胶着局",
+        "favorite": "Norway",
+        "underdog": "Iraq",
+        "favorite_side": "away",
+        "over_tendency": "强",
+        "under_tendency": "中",
+        "favorite_firepower_ceiling": "中",
+        "underdog_collapse_risk": "低",
+        "match_acceleration_risk": "中",
+        "market_over_signal": "中",
+        "total_goals_3_plus": 0.5100535365000525,
+        "total_goals_4_plus": 0.2892272652065222,
+        "total_goals_5_plus": 0.13933900377724873,
+        "favorite_goals_3_plus": 0.19121128150316444,
+        "favorite_goals_4_plus": 0.06567151264118234,
+        "ban_under_bet": false,
+        "model_underestimates_blowout": false,
+        "score_band_focus": "大比分",
+        "drivers": [
+          "总进球盘口达到 3",
+          "强队让球达到 2",
+          "强队独赢低于 1.20：1.19"
+        ],
+        "scores": {
+          "over": 0.6965138350699647,
+          "under": 0.4763921721271681,
+          "firepower": 0.4368282570913963,
+          "collapse": 0.3527683179187217,
+          "acceleration": 0.5005619946366942,
+          "market": 0.4
+        }
+      },
+      "market": {
+        "weight": 0.45,
+        "source_note": "User screenshot 2026-06-16",
+        "moneyline": {
+          "home_win_odds": 15.0,
+          "draw_odds": 6.8,
+          "away_win_odds": 1.19,
+          "probabilities": {
+            "win": 0.06324740898219505,
+            "draw": 0.13951634334307733,
+            "loss": 0.7972362476747276
+          }
+        },
+        "external_forecast": null,
+        "benchmark_probabilities": {
+          "win": 0.06324740898219505,
+          "draw": 0.13951634334307733,
+          "loss": 0.7972362476747276
+        },
+        "disagreement": {
+          "summary": "模型比市场/外部基准更看好主队，需要检查是否存在数据或战术假设差异。",
+          "home_gap": 0.24420002459115103,
+          "stance": "model_bullish"
+        },
+        "total_goals": {
+          "line": 3.0,
+          "over": 0.4857881136950904,
+          "under": 0.5142118863049095,
+          "expected_total_goals": 2.9786821705426356
+        },
+        "handicap": {
+          "home_line": 2.0,
+          "home_cover": 0.538659793814433,
+          "away_cover": 0.4613402061855671
+        },
+        "calibrated_probabilities": {
+          "win": 0.19755742250732813,
+          "draw": 0.20266117525329547,
+          "loss": 0.5997814022393765
+        },
+        "calibrated_expected_goals": {
+          "home": 1.267895239118315,
+          "away": 1.5657859445977373
+        },
+        "market_effect": {
+          "home_win_shift": -0.10989001106601795,
+          "draw_shift": -0.051663953381087535,
+          "away_win_shift": 0.1615539644471055,
+          "market_weight": 0.45
+        }
+      },
+      "strength_delta": -0.13537040115713256,
+      "contribution_delta": {
+        "elo": -0.05581395348837209,
+        "fifa": -0.006980447668760504,
+        "form": -0.02099999999999999,
+        "player": -0.03361599999999999,
+        "style": 0.0,
+        "matchup": 0.0,
+        "venue": -0.00884,
+        "context": -0.00911999999999999
+      },
+      "group_stage_value": {
+        "home_win_value": 0.56,
+        "draw_acceptability": 0.72,
+        "home_loss_risk": 0.30000000000000004,
+        "format_note": "2026 group stage: top two teams plus eight best third-place teams advance to the Round of 32."
+      },
+      "home_notes": "No optional adjustment supplied",
+      "away_notes": "No optional adjustment supplied"
+    },
+    {
+      "home": "Argentina",
+      "away": "Algeria",
+      "label": "Argentina vs Algeria",
+      "date": "2026-06-16",
+      "context": "World Cup group-stage match",
+      "probabilities": {
+        "win": 0.5170191859322452,
+        "draw": 0.2410437180210042,
+        "loss": 0.2419370960467507
+      },
+      "expected_goals": {
+        "home": 1.690764283661714,
+        "away": 1.077914891869483
+      },
+      "prematch": {
+        "active": false,
+        "probabilities": {
+          "win": 0.5170191859322452,
+          "draw": 0.2410437180210042,
+          "loss": 0.2419370960467507
+        },
+        "expected_goals": {
+          "home": 1.690764283661714,
+          "away": 1.077914891869483
+        },
+        "home": {
+          "active": false,
+          "scores": {
+            "training_readiness_score": 0.5,
+            "key_player_status_score": 0.5,
+            "lineup_confidence_score": 0.5,
+            "tactical_cohesion_score": 0.5,
+            "coach_signal_score": 0.5,
+            "travel_acclimation_score": 0.5,
+            "disruption_risk_score": 0.2,
+            "upside_trigger_score": 0.5
+          },
+          "source_confidence": 0.4,
+          "source_tier": "low_confidence",
+          "last_updated_at": "2026-06-16T12:00:00Z",
+          "source_urls": [
+            "manual:neutral-placeholder"
+          ],
+          "notes": "Neutral placeholder; not used in model until reliable pre-match sources are imported",
+          "attack_xg_factor": 1.0,
+          "defensive_error_risk_delta": 0.0,
+          "score_variance_delta": 0.0,
+          "upside_delta": 0.0
+        },
+        "away": {
+          "active": false,
+          "scores": {
+            "training_readiness_score": 0.5,
+            "key_player_status_score": 0.5,
+            "lineup_confidence_score": 0.5,
+            "tactical_cohesion_score": 0.5,
+            "coach_signal_score": 0.5,
+            "travel_acclimation_score": 0.5,
+            "disruption_risk_score": 0.2,
+            "upside_trigger_score": 0.5
+          },
+          "source_confidence": 0.4,
+          "source_tier": "low_confidence",
+          "last_updated_at": "2026-06-16T12:00:00Z",
+          "source_urls": [
+            "manual:neutral-placeholder"
+          ],
+          "notes": "Neutral placeholder; not used in model until reliable pre-match sources are imported",
+          "attack_xg_factor": 1.0,
+          "defensive_error_risk_delta": 0.0,
+          "score_variance_delta": 0.0,
+          "upside_delta": 0.0
+        },
+        "effect": {
+          "home_win_shift": 0.0,
+          "draw_shift": 0.0,
+          "away_win_shift": 0.0,
+          "max_module_shift": 0.05,
+          "single_source_cap": 0.015
+        },
+        "risk_metrics": {
+          "score_variance_delta": 0.0,
+          "favorite": "home",
+          "base": {
+            "home_win_by_2_plus": 0.2800051568045923,
+            "home_win_by_3_plus": 0.12179778558040828,
+            "away_win_by_2_plus": 0.09083327041506706,
+            "away_win_by_3_plus": 0.026530523357459777,
+            "underdog_unbeaten_probability": 0.4829808140677549,
+            "upset_win_probability": 0.2419370960467507
+          },
+          "adjusted": {
+            "home_win_by_2_plus": 0.2800051568045923,
+            "home_win_by_3_plus": 0.12179778558040828,
+            "away_win_by_2_plus": 0.09083327041506706,
+            "away_win_by_3_plus": 0.026530523357459777,
+            "underdog_unbeaten_probability": 0.4829808140677549,
+            "upset_win_probability": 0.2419370960467507
+          },
+          "blowout_probability_shift_2_plus": 0.0,
+          "blowout_probability_shift_3_plus": 0.0,
+          "upset_probability_shift": 0.0,
+          "underdog_unbeaten_shift": 0.0
+        }
+      },
+      "goal_risk": {
+        "match_type": "防守胶着局",
+        "favorite": "Argentina",
+        "underdog": "Algeria",
+        "favorite_side": "home",
+        "over_tendency": "中",
+        "under_tendency": "中",
+        "favorite_firepower_ceiling": "中",
+        "underdog_collapse_risk": "低",
+        "match_acceleration_risk": "中",
+        "market_over_signal": "弱",
+        "total_goals_3_plus": 0.5230470100170308,
+        "total_goals_4_plus": 0.30110241963511514,
+        "total_goals_5_plus": 0.14747907825706288,
+        "favorite_goals_3_plus": 0.240340779443429,
+        "favorite_goals_4_plus": 0.09181277497103044,
+        "ban_under_bet": false,
+        "model_underestimates_blowout": false,
+        "score_band_focus": "正常比分",
+        "drivers": [
+          "市场没有明显高总进球信号"
+        ],
+        "scores": {
+          "over": 0.6318252177181461,
+          "under": 0.6026703364043278,
+          "firepower": 0.4819960429183395,
+          "collapse": 0.28252365267968554,
+          "acceleration": 0.386871453613986,
+          "market": 0.0
+        }
+      },
+      "market": {
+        "weight": 0.45,
+        "source_note": "User screenshot 2026-06-16",
+        "moneyline": {
+          "home_win_odds": 1.39,
+          "draw_odds": 4.7,
+          "away_win_odds": 8.2,
+          "probabilities": {
+            "win": 0.6824741902923624,
+            "draw": 0.2018381115971029,
+            "loss": 0.1156876981105346
+          }
+        },
+        "external_forecast": null,
+        "benchmark_probabilities": {
+          "win": 0.6824741902923624,
+          "draw": 0.2018381115971029,
+          "loss": 0.1156876981105346
+        },
+        "disagreement": {
+          "summary": "模型比市场/外部基准更保守，主队优势主要来自盘口和外部模型。",
+          "home_gap": -0.16545500436011729,
+          "stance": "model_conservative"
+        },
+        "total_goals": {
+          "line": 2.5,
+          "over": 0.4832041343669251,
+          "under": 0.5167958656330749,
+          "expected_total_goals": 2.4748062015503876
+        },
+        "handicap": {
+          "home_line": -1.25,
+          "home_cover": 0.4845360824742268,
+          "away_cover": 0.5154639175257731
+        },
+        "calibrated_probabilities": {
+          "win": 0.5914739378942979,
+          "draw": 0.22340119513024861,
+          "loss": 0.18512486697545347
+        },
+        "calibrated_expected_goals": {
+          "home": 1.6100068345035998,
+          "away": 1.0264295027362331
+        },
+        "market_effect": {
+          "home_win_shift": 0.07445475196205276,
+          "draw_shift": -0.017642522890755574,
+          "away_win_shift": -0.05681222907129724,
+          "market_weight": 0.45
+        }
+      },
+      "strength_delta": 0.2608208157044126,
+      "contribution_delta": {
+        "elo": 0.14139534883720928,
+        "fifa": 0.015141466867203397,
+        "form": 0.03,
+        "player": 0.054823999999999984,
+        "style": 0.0021000000000000003,
+        "matchup": 0.0014000000000000002,
+        "venue": 0.006840000000000006,
+        "context": 0.00911999999999999
+      },
+      "group_stage_value": {
+        "home_win_value": 0.82,
+        "draw_acceptability": 0.6499999999999999,
+        "home_loss_risk": 0.30000000000000004,
+        "format_note": "2026 group stage: top two teams plus eight best third-place teams advance to the Round of 32."
+      },
+      "home_notes": "Elite squad continuity and market respect",
+      "away_notes": "No optional adjustment supplied"
+    },
+    {
+      "home": "Austria",
+      "away": "Jordan",
+      "label": "Austria vs Jordan",
+      "date": "2026-06-16",
+      "context": "World Cup group-stage match",
+      "probabilities": {
+        "win": 0.4667791415106583,
+        "draw": 0.2505315254830865,
+        "loss": 0.28268933300625526
+      },
+      "expected_goals": {
+        "home": 1.567086560214224,
+        "away": 1.1629861720917705
+      },
+      "prematch": {
+        "active": false,
+        "probabilities": {
+          "win": 0.4667791415106583,
+          "draw": 0.2505315254830865,
+          "loss": 0.28268933300625526
+        },
+        "expected_goals": {
+          "home": 1.567086560214224,
+          "away": 1.1629861720917705
+        },
+        "home": {
+          "active": false,
+          "scores": {
+            "training_readiness_score": 0.5,
+            "key_player_status_score": 0.5,
+            "lineup_confidence_score": 0.5,
+            "tactical_cohesion_score": 0.5,
+            "coach_signal_score": 0.5,
+            "travel_acclimation_score": 0.5,
+            "disruption_risk_score": 0.2,
+            "upside_trigger_score": 0.5
+          },
+          "source_confidence": 0.4,
+          "source_tier": "low_confidence",
+          "last_updated_at": "2026-06-16T12:00:00Z",
+          "source_urls": [
+            "manual:neutral-placeholder"
+          ],
+          "notes": "Neutral placeholder; not used in model until reliable pre-match sources are imported",
+          "attack_xg_factor": 1.0,
+          "defensive_error_risk_delta": 0.0,
+          "score_variance_delta": 0.0,
+          "upside_delta": 0.0
+        },
+        "away": {
+          "active": false,
+          "scores": {
+            "training_readiness_score": 0.5,
+            "key_player_status_score": 0.5,
+            "lineup_confidence_score": 0.5,
+            "tactical_cohesion_score": 0.5,
+            "coach_signal_score": 0.5,
+            "travel_acclimation_score": 0.5,
+            "disruption_risk_score": 0.2,
+            "upside_trigger_score": 0.5
+          },
+          "source_confidence": 0.4,
+          "source_tier": "low_confidence",
+          "last_updated_at": "2026-06-16T12:00:00Z",
+          "source_urls": [
+            "manual:neutral-placeholder"
+          ],
+          "notes": "Neutral placeholder; not used in model until reliable pre-match sources are imported",
+          "attack_xg_factor": 1.0,
+          "defensive_error_risk_delta": 0.0,
+          "score_variance_delta": 0.0,
+          "upside_delta": 0.0
+        },
+        "effect": {
+          "home_win_shift": 0.0,
+          "draw_shift": 0.0,
+          "away_win_shift": 0.0,
+          "max_module_shift": 0.05,
+          "single_source_cap": 0.015
+        },
+        "risk_metrics": {
+          "score_variance_delta": 0.0,
+          "favorite": "home",
+          "base": {
+            "home_win_by_2_plus": 0.2384556803392709,
+            "home_win_by_3_plus": 0.09719765816276,
+            "away_win_by_2_plus": 0.11324302748864146,
+            "away_win_by_3_plus": 0.03544362702505187,
+            "underdog_unbeaten_probability": 0.5332208584893418,
+            "upset_win_probability": 0.28268933300625526
+          },
+          "adjusted": {
+            "home_win_by_2_plus": 0.2384556803392709,
+            "home_win_by_3_plus": 0.09719765816276,
+            "away_win_by_2_plus": 0.11324302748864146,
+            "away_win_by_3_plus": 0.03544362702505187,
+            "underdog_unbeaten_probability": 0.5332208584893418,
+            "upset_win_probability": 0.28268933300625526
+          },
+          "blowout_probability_shift_2_plus": 0.0,
+          "blowout_probability_shift_3_plus": 0.0,
+          "upset_probability_shift": 0.0,
+          "underdog_unbeaten_shift": 0.0
+        }
+      },
+      "goal_risk": {
+        "match_type": "防守胶着局",
+        "favorite": "Austria",
+        "underdog": "Jordan",
+        "favorite_side": "home",
+        "over_tendency": "中",
+        "under_tendency": "中",
+        "favorite_firepower_ceiling": "中",
+        "underdog_collapse_risk": "低",
+        "match_acceleration_risk": "低",
+        "market_over_signal": "弱",
+        "total_goals_3_plus": 0.5137133039816069,
+        "total_goals_4_plus": 0.29254856931215156,
+        "total_goals_5_plus": 0.14159961644495941,
+        "favorite_goals_3_plus": 0.20817187380873964,
+        "favorite_goals_4_plus": 0.07434274161066406,
+        "ban_under_bet": false,
+        "model_underestimates_blowout": false,
+        "score_band_focus": "正常比分",
+        "drivers": [
+          "市场没有明显高总进球信号"
+        ],
+        "scores": {
+          "over": 0.6145690020998487,
+          "under": 0.6208937325220509,
+          "firepower": 0.4144607143889724,
+          "collapse": 0.28990223753748523,
+          "acceleration": 0.3688436425295697,
+          "market": 0.0
+        }
+      },
+      "market": {
+        "weight": 0.45,
+        "source_note": "User screenshot 2026-06-16",
+        "moneyline": {
+          "home_win_odds": 1.36,
+          "draw_odds": 5.0,
+          "away_win_odds": 8.4,
+          "probabilities": {
+            "win": 0.6973963868225291,
+            "draw": 0.18969181721572795,
+            "loss": 0.11291179596174282
+          }
+        },
+        "external_forecast": null,
+        "benchmark_probabilities": {
+          "win": 0.6973963868225292,
+          "draw": 0.18969181721572798,
+          "loss": 0.11291179596174283
+        },
+        "disagreement": {
+          "summary": "模型比市场/外部基准更保守，主队优势主要来自盘口和外部模型。",
+          "home_gap": -0.23061724531187094,
+          "stance": "model_conservative"
+        },
+        "total_goals": {
+          "line": 2.75,
+          "over": 0.4806201550387597,
+          "under": 0.5193798449612403,
+          "expected_total_goals": 2.7209302325581395
+        },
+        "handicap": {
+          "home_line": -1.25,
+          "home_cover": 0.5231958762886598,
+          "away_cover": 0.47680412371134023
+        },
+        "calibrated_probabilities": {
+          "win": 0.5705569019010002,
+          "draw": 0.22315365676277513,
+          "loss": 0.20628944133622465
+        },
+        "calibrated_expected_goals": {
+          "home": 1.5647250151387253,
+          "away": 1.1612335922807349
+        },
+        "market_effect": {
+          "home_win_shift": 0.10377776039034187,
+          "draw_shift": -0.027377868720311366,
+          "away_win_shift": -0.07639989167003061,
+          "market_weight": 0.45
+        }
+      },
+      "strength_delta": 0.17950622214723805,
+      "contribution_delta": {
+        "elo": 0.09004651162790697,
+        "fifa": 0.013023710519331152,
+        "form": 0.01949999999999999,
+        "player": 0.03827999999999998,
+        "style": 0.0,
+        "matchup": 0.0,
+        "venue": 0.008000000000000007,
+        "context": 0.010655999999999985
+      },
+      "group_stage_value": {
+        "home_win_value": 0.72,
+        "draw_acceptability": 0.72,
         "home_loss_risk": 0.30000000000000004,
         "format_note": "2026 group stage: top two teams plus eight best third-place teams advance to the Round of 32."
       },
